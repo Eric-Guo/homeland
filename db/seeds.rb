@@ -1,4 +1,4 @@
 # ============ init Section, Node ================
-%w[Fun Movie Music Apple Goolge Coding].each do |name|
+%w[甜苹果 酸葡萄 直通车 Life Market 其他].each do |name|
   Node.create!(name: name, summary: "...")
 end
