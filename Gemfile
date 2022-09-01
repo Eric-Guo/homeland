@@ -96,6 +96,12 @@ group :development do
   gem "derailed_benchmarks"
   gem "letter_opener"
   gem "spring"
+
+  gem 'capistrano'
+  gem 'capistrano-rails'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-sidekiq', require: false
+  gem 'capistrano3-puma'
 end
 
 group :development, :test do
