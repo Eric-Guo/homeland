@@ -81,7 +81,7 @@ Doorkeeper.configure do
   # by default in non-development environments). OAuth2 delegates security in
   # communication to the HTTPS protocol so it is wise to keep this enabled.
   #
-  force_ssl_in_redirect_uri false
+  force_ssl_in_redirect_uri true
 
   # Specify what grant flows are enabled in array of Strings. The valid
   # strings and the flows they enable are:
@@ -110,5 +110,5 @@ Doorkeeper.configure do
   # end
 
   # WWW-Authenticate Realm (default "Doorkeeper").
-  realm(ENV["app_name"] || "Homeland")
+  realm(ENV["app_name"] || "甜酸论坛")
 end
