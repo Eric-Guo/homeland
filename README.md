@@ -21,3 +21,19 @@
 Released under the MIT license:
 
 - [www.opensource.org/licenses/MIT](http://www.opensource.org/licenses/MIT)
+
+## Export production DB and import into local dev
+
+```bash
+sudo su - thape_forum
+pg_dump thape_forum_prod -O -x > thape_forum_prod.sql
+zip thape_forum_prod.zip thape_forum_prod.sql
+logout
+scp thape_forum@thape_homeland:thape_forum_prod.zip .
+unzip thape_forum_prod.zip
+psql -d postgres
+DROP DATABASE homeland-dev;
+CREATE DATABASE "homeland-dev" WITH ENCODING='UTF8';
+\q
+psql -d 'homeland-dev' -f thape_forum_prod.sql
+```
