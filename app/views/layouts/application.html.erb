@@ -85,11 +85,6 @@
     <% end %>
   </script>
   <%= yield :scripts %>
-  <script>
-    ga('create', '<%= Setting.google_analytics_key %>', 'auto');
-    ga('require', 'displayfeatures');
-    ga('send', 'pageview');
-  </script>
   <div class="zoom-overlay"></div>
 </body>
 </html>
