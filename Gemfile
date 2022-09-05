@@ -91,6 +91,10 @@ gem "bootsnap"
 
 gem "puma_worker_killer"
 
+group :production do
+  gem 'dalli'
+end
+
 group :development do
   gem "byebug"
   gem "derailed_benchmarks"
