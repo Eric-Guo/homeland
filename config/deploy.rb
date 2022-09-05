@@ -23,10 +23,10 @@ set :branch, 'thape_forum'
 # set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, *%w[puma.rb config/database.yml config/secrets.yml config/redis.yml]
+append :linked_files, *%w[.env.local puma.rb config/database.yml config/secrets.yml config/redis.yml]
 
 # Default value for linked_dirs is []
-append :linked_dirs, *%w[log tmp/pids tmp/cache tmp/sockets public/system public/uploads node_modules storage]
+append :linked_dirs, *%w[log tmp/pids tmp/cache tmp/sockets public/uploads node_modules storage]
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
