@@ -66,7 +66,6 @@ class Setting < RailsSettings::Base
     editor_languages
     sorted_plugins
     profile_fields
-    google_analytics_key
     twitter_api_key
     twitter_api_secret
     github_api_key
@@ -93,7 +92,6 @@ class Setting < RailsSettings::Base
     field :twitter_id
     field :share_allow_sites, default: %w[twitter weibo facebook wechat], type: :array, separator: /\s+/
     field :editor_languages, default: %w[rb go js py java rs php css html yml json xml], type: :array, separator: /[\s,]+/
-    field :google_analytics_key, default: ""
     field :manifest, type: :hash, default: {
       name: "Homeland",
       short_name: "Homeland",
