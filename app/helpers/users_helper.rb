@@ -41,10 +41,12 @@ module UsersHelper
     width = user_avatar_width_for_size(version)
     img_class = "media-object avatar-#{width}"
 
-    return "" if user.blank? || anonymous.present?
+    return "" if user.blank?
 
     img =
-      if user.avatar?
+      if anonymous.present?
+        image_tag('/avatar-default.png', class: img_class)
+      elsif user.avatar?
         image_url = user.avatar.url(version)
         image_url += "?t=#{user.updated_at.to_i}" if timestamp
         image_tag(image_url, class: img_class)
