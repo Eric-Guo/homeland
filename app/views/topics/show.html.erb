@@ -85,9 +85,11 @@
     <% end %>
   </div>
   <% if !mobile? %>
-    <div class="hidden md:flex md:w-60 lg:w-72 shrink-0">
-      <%= render 'topic_sidebar' %>
-    </div>
+    <% if !@topic.anonymous %>
+      <div class="hidden md:flex md:w-60 lg:w-72 shrink-0">
+        <%= render 'topic_sidebar' %>
+      </div>
+    <% end %>
   <% else %>
     <div class="move-page-buttons">
       <a href="#" class="btn btn-block btn-sm btn-move-page" data-type="top"><i class="fa fa-arrow-up"></i></a>

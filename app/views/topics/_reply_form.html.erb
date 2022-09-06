@@ -4,6 +4,12 @@
   <div class="form-group">
     <%= f.text_area :body, class: "topic-editor form-control", rows: "4", tabindex: "1" %>
   </div>
+  <div class="form-group">
+    <div class="form-check">
+      <%= f.check_box :anonymous, { class: "form-check-input" }, true, false %>
+      <%= f.label :anonymous, "匿名", class: "form-check-label" %>
+    </div>
+  </div>
   <%= f.hidden_field :reply_to_id %>
   <div class="submit-buttons">
     <button type="submit" id="reply-button" class="btn btn-primary" tabindex="2", data-disable-with='<%= t("topics.submit_reply") %>'><%= t("topics.submit_reply")%></button>
