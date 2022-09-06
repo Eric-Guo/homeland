@@ -41,10 +41,10 @@ module UsersHelper
 
     return "" if user.blank?
 
+    return raw(image_tag('/avatar-default.png', class: img_class)) if anonymous.present?
+
     img =
-      if anonymous.present?
-        image_tag('/avatar-default.png', class: img_class)
-      elsif user.avatar?
+      if user.avatar?
         image_url = user.avatar.url(version)
         image_url += "?t=#{user.updated_at.to_i}" if timestamp
         image_tag(image_url, class: img_class)
