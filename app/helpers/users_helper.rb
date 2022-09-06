@@ -3,7 +3,7 @@ require "digest/md5"
 module UsersHelper
   # Genrate a user name link
   def user_name_tag(user, options = {})
-    return t("common.unknow_user") if user.blank?
+    return t("common.unknow_user") if user.blank? || options[:anonymous].present?
 
     user_type = :user
     login = user
@@ -35,11 +35,11 @@ module UsersHelper
     end
   end
 
-  def user_avatar_tag(user, version = :md, link: true, timestamp: nil)
+  def user_avatar_tag(user, version = :md, link: true, timestamp: nil, anonymous: false)
     width = user_avatar_width_for_size(version)
     img_class = "media-object avatar-#{width}"
 
-    return "" if user.blank?
+    return "" if user.blank? || anonymous.present?
 
     img =
       if user.avatar?

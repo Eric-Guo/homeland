@@ -79,6 +79,7 @@ class TopicsController < ApplicationController
 
   def create
     @topic = Topic.new(topic_params)
+    @topic.anonymous = ['true', '1', true, 1].include?(topic_params[:anonymous])
     @topic.user_id = current_user.id
     @topic.node_id = params[:node] || topic_params[:node_id]
     @topic.team_id = ability_team_id
@@ -102,6 +103,7 @@ class TopicsController < ApplicationController
         @topic.lock_node = true
       end
     end
+    @topic.anonymous = ['true', '1', true, 1].include?(topic_params[:anonymous])
     @topic.team_id = ability_team_id
     @topic.title = topic_params[:title]
     @topic.body = topic_params[:body]
@@ -167,7 +169,7 @@ class TopicsController < ApplicationController
   end
 
   def topic_params
-    params.require(:topic).permit(:title, :body, :node_id, :team_id)
+    params.require(:topic).permit(:title, :body, :node_id, :team_id, :anonymous)
   end
 
   def ability_team_id
