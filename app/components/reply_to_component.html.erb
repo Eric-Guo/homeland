@@ -3,7 +3,7 @@
     <div class="info">
       <%= t("topics.reply_to1") %>
       <% if show_body %>
-        <%= user_avatar_tag(user, :xs) %><%= user_name_tag(user) %>
+        <%= user_avatar_tag(user, :xs, anonymous: reply_to.anonymous) %><%= user_name_tag(user, anonymous: reply_to.anonymous) %>
       <% else %>
         <%= link_to reply_to_topic_reply_path(@topic, reply), remote: true do %>
           <%= user_avatar_tag(user, :xs, link: false) %><span class="user-name"><%= user.login %></span>
