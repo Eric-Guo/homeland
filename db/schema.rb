@@ -209,6 +209,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_10_03_022421) do
     t.string "target_type"
     t.string "target_id"
     t.integer "reply_to_id"
+    t.boolean "anonymous", default: true, null: false
     t.index ["deleted_at"], name: "index_replies_on_deleted_at"
     t.index ["topic_id"], name: "index_replies_on_topic_id"
     t.index ["user_id"], name: "index_replies_on_user_id"
@@ -268,6 +269,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_10_03_022421) do
     t.datetime "updated_at", precision: nil
     t.datetime "closed_at", precision: nil
     t.integer "team_id"
+    t.boolean "anonymous", default: true, null: false
     t.index ["deleted_at"], name: "index_topics_on_deleted_at"
     t.index ["grade"], name: "index_topics_on_grade"
     t.index ["last_active_mark"], name: "index_topics_on_last_active_mark"

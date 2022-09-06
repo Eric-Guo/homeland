@@ -10,6 +10,7 @@ class RepliesController < ApplicationController
     @reply = Reply.new(reply_params)
     @reply.topic_id = @topic.id
     @reply.user_id = current_user.id
+    @reply.anonymous = ['true', '1', true, 1].include?(reply_params[:anonymous])
 
     if @reply.save
       current_user.read_topic(@topic)
@@ -44,7 +45,7 @@ class RepliesController < ApplicationController
   end
 
   def update
-    @reply.update(reply_params)
+    @reply.update({ **reply_params, anonymous: ['true', '1', true, 1].include?(reply_params[:anonymous]) })
   end
 
   def destroy
@@ -66,6 +67,6 @@ class RepliesController < ApplicationController
   end
 
   def reply_params
-    params.require(:reply).permit(:body, :reply_to_id)
+    params.require(:reply).permit(:body, :reply_to_id, :anonymous)
   end
 end

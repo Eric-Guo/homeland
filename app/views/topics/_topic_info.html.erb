@@ -15,7 +15,7 @@
       </div>
     <% end %>
     <div class="info">
-      <%= user_name_tag(topic.user, data: { author: true }) %>
+      <%= user_name_tag(topic.user, data: { author: true }, anonymous: topic.anonymous) %>
       <span class="hidden-mobile">
         <% if topic.team %>
         for <%= user_name_tag(topic.team) %>
@@ -34,6 +34,6 @@
     </div>
   </div>
   <div class="avatar media-right d-md-none">
-    <%= user_avatar_tag(@topic.user, :md) %>
+    <%= user_avatar_tag(@topic.user, :md, anonymous: @topic.anonymous) %>
   </div>
 </div>
