@@ -16,7 +16,7 @@ json.cache! ["v2", notification] do
   json.type notification.notify_type.classify
   json.read notification.read?
   json.actor do
-    json.partial! "user", user: notification.actor
+    json.partial! "user", user: notification.anonymous ? user_name_tag(notification.actor, anonymous: notification.anonymous) : notification.actor
   end
 
   if notification.notify_type != "mention"
