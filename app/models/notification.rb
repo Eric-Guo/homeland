@@ -44,6 +44,16 @@ class Notification < ActiveRecord::Base
     end
   end
 
+  def anonymous
+    return true if actor.blank?
+    case notify_type
+    when 'topic', 'topic_reply', 'mention', 'node_changed'
+      target.anonymous
+    else
+      false
+    end
+  end
+
   def self.notify_follow(user_id, follower_id)
     opts = {
       notify_type: "follow",

@@ -3,7 +3,11 @@
      data-id="<%= notification.id %>"
      class="media notification notification-<%= notification.notify_type %><%= ' unread' if !notification.read? %>">
   <div class="media-left mr-3">
-    <%= link_to image_tag(notification.actor_avatar_url), notification.actor_profile_url, title: notification.actor_name, class: 'user-avatar' %>
+    <% if notification.anonymous %>
+      <%= user_avatar_tag(notification.actor, :sm, anonymous: notification.anonymous) %>
+    <% else %>
+      <%= link_to image_tag(notification.actor_avatar_url), notification.actor_profile_url, title: notification.actor_name, class: 'user-avatar' %>
+    <% end %>
   </div>
   <div class="media-body">
     <%= render partial: "/notifications/#{notification.notify_type.underscore}", locals: { notification: notification } %>
