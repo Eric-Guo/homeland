@@ -39,9 +39,7 @@ module UsersHelper
     width = user_avatar_width_for_size(version)
     img_class = "media-object avatar-#{width}"
 
-    return "" if user.blank?
-
-    return raw(image_tag('/avatar-default.png', class: img_class)) if anonymous.present?
+    return raw(image_tag('/avatar-default.png', class: img_class)) if user.blank? || anonymous.present?
 
     img =
       if user.avatar?
