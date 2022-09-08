@@ -4,7 +4,7 @@
   <div class="form-group">
     <h4><%= link_to @reply.topic&.title, topic_path(@reply.topic_id), target: "_blank" %></h4>
     <div class="mt-2">
-      <%= user_name_tag(@reply.user) %>
+      <%= user_name_tag(@reply.user, anonymous: @reply.anonymous) %>
       <%= timeago @reply.created_at %>
     </div>
   </div>
