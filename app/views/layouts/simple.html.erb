@@ -7,6 +7,7 @@
     <title><%= content_for?(:title) ? yield(:title) : Setting.app_name %></title>
     <meta name="apple-mobile-web-app-capable" content="no">
     <meta content='True' name='HandheldFriendly'>
+    <link rel="shortcut icon" href=" /favicon.ico" />
     <%= stylesheet_pack_tag "front" %>
     <%= javascript_pack_tag "application", defer: false %>
     <%= csrf_meta_tag %>
