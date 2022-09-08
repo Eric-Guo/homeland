@@ -67,6 +67,7 @@ class TopicsController < ApplicationController
 
   def new
     @topic = Topic.new(user_id: current_user.id)
+    @topic.anonymous = false
     unless params[:node_id].blank?
       @topic.node_id = params[:node_id]
       @node = Node.find_by_id(params[:node_id])
