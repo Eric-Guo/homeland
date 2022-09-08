@@ -8,6 +8,7 @@ class TopicsController < ApplicationController
     action favorites]
   load_and_authorize_resource only: %i[new edit create update destroy favorite unfavorite follow unfollow]
   before_action :set_topic, only: %i[edit read update destroy follow unfollow action ban]
+  before_action :set_notes, only: %i[index last excellent popular banned last_reply node]
 
   def index
     @suggest_topics = []
@@ -168,6 +169,11 @@ class TopicsController < ApplicationController
 
   def set_topic
     @topic ||= Topic.find(params[:id])
+  end
+
+  def set_notes
+    puts 456456456
+    @notes ||= Node.sorted
   end
 
   def topic_params
