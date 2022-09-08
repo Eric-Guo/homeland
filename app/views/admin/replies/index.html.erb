@@ -28,7 +28,7 @@
       <% else %>
         <td><%= reply.topic_id %></td>
       <% end %>
-      <td><%= link_to(reply.user.login, edit_admin_user_path(reply.user_id), target: "_blank") if reply.user %></td>
+      <td><%= user_name_tag(reply.user, anonymous: reply.anonymous) %></td>
       <td><%= l reply.created_at, format: :short %></td>
       <td class="actions">
         <div class="btn-group">
