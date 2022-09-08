@@ -11,9 +11,6 @@
         <li class="<%= ' active' if action_name == 'excellent' %>">
           <a href="<%= main_app.excellent_topics_path %>" data-turbolinks-action="replace"><i class="fa fa-award"></i> <%= t("topics.topic_list.excellent") %></a>
         </li>
-        <li class="<%= ' active' if action_name == 'popular' %>">
-          <a href="<%= main_app.popular_topics_path %>" data-turbolinks-action="replace"><%= t("topics.topic_list.popular") %></a>
-        </li>
         <% if can?(:ban, Topic) %>
           <li class="<%= ' active' if action_name == 'banned' %>">
             <%= link_to(t("topics.topic_list.banned"), main_app.banned_topics_path, data: { 'turbolinks-action': 'replace' }) %>
