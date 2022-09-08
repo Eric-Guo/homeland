@@ -26,10 +26,6 @@
         </div>
       </div>
       <hr>
-      <div class="group">
-        <%= social_share_button_tag h("#{@topic.title}") %>
-      </div>
-      <hr>
       <div class="reply-buttons">
         <div class="total">
           <%= t("topics.total_replies_html", count: @topic.replies_count) %>
