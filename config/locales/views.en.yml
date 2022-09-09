@@ -267,9 +267,7 @@ en:
     excellent_info_html: Topic has been selected as the excellent topic by the admin.
     need_login_to_reply_html: >-
       You need to <a href="/account/sign_in" class="btn btn-sm btn-primary">Sign
-      in</a> before reply, if you don't have an account, please <a
-      href="/account/sign_up" class="btn btn-secondary btn-sm">Sign up</a>
-      first.
+      in</a> before reply.
     newbi_info_html: Newbi users cannot reply between 22:00 - 9:00.
     closed_info_html: Topic has been closed at %{closed_at}, is not accepting any replies.
     topic_pin_successfully: Topic has pinned successfully.
