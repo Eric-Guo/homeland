@@ -32,7 +32,7 @@ logout
 scp thape_forum@thape_homeland:thape_forum_prod.zip .
 unzip thape_forum_prod.zip
 psql -d postgres
-DROP DATABASE homeland-dev;
+DROP DATABASE "homeland-dev";
 CREATE DATABASE "homeland-dev" WITH ENCODING='UTF8';
 \q
 psql -d 'homeland-dev' -f thape_forum_prod.sql
