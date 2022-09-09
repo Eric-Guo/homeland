@@ -44,5 +44,10 @@ class User
 
       "#{Setting.base_url}/system/#{avatar_path}"
     end
+
+    def gravatarurl
+      hash = Digest::MD5.hexdigest(email)
+      "https://unicornify.pictures/avatar/#{hash}?s=128"
+    end
   end
 end
