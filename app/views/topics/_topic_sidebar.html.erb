@@ -1,10 +1,12 @@
 <div id="topic-sidebar" data-spy="affix" data-offset-bottom="65" class="fixed md:w-60 lg:w-72">
-  <div class="mb-4 card">
-    <div class="card-body">
-      <%= render ProfileCardComponent.new(user: @topic.user) %>
+  <% unless @topic.anonymous %>
+    <div class="mb-4 card">
+      <div class="card-body">
+        <%= render ProfileCardComponent.new(user: @topic.user) %>
+      </div>
     </div>
-  </div>
-  <div class="mb-4 card">
+  <% end %>
+  <div class="card mb-4">
     <div class="card-body">
       <div class="buttons">
         <div class="group likes opts">
