@@ -48,7 +48,7 @@ class Notification < ActiveRecord::Base
     return true if actor.blank?
     case notify_type
     when 'topic', 'topic_reply', 'mention', 'node_changed'
-      target.anonymous
+      target&.anonymous
     else
       false
     end
