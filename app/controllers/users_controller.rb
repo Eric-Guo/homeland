@@ -51,6 +51,8 @@ class UsersController < ApplicationController
     end
 
     @user_type = @user.user_type
+
+    @is_self = current_user.present? && current_user.id == @user.id
   end
 
   def check_exist!
