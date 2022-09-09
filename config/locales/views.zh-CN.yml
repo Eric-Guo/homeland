@@ -55,10 +55,10 @@ zh-CN:
     last_reply_time: 最后回复时间
     reply: 回复
     index_node_navigation: 讨论节点分类导航
-    highlight_topic: 置顶话题
+    highlight_topic: 置顶帖子
     statics: 统计信息
     statics_users_count: 会员数：%{count} 个
-    statics_topics_count: 话题数：%{count} 篇
+    statics_topics_count: 帖子数：%{count} 篇
     statics_replies_count: 回帖数：%{count} 条
     statics_online_users_count: "%{count} 人在线"
     online: 在线
@@ -117,7 +117,7 @@ zh-CN:
     admin: 管理后台
     nodes: 节点
     edit_account_path: 个人设置
-    likes: 你收藏的话题
+    likes: 你收藏的帖子
     teams: 公司／组织
     back_to_front: 回到前台
   comments:
@@ -157,9 +157,9 @@ zh-CN:
     site_index_html: 酷站列表首页头的 HTML
     navbar_brand_html: 导航栏 Logo
     navbar_html: 导航栏自定义 HTML
-    topic_index_sidebar_html: 话题列表首页边栏 HTML
-    before_topic_html: 话题正文前面的 HTML
-    after_topic_html: 话题后面的 HTML
+    topic_index_sidebar_html: 帖子列表首页边栏 HTML
+    before_topic_html: 帖子正文前面的 HTML
+    after_topic_html: 帖子后面的 HTML
     footer_html: 页脚 HTML
     wiki_index_html: WIKI 首页 HTML
     wiki_sidebar_html: WIKI 边栏 HTML
@@ -168,11 +168,11 @@ zh-CN:
     ban_words_in_body: 正文里面禁止提及的内容，为避免误判，请准确描述，不要写太短的词
     apns_pem: Apple Push 证书内容，保持为空将不会触发 Push 发送动作
     blacklist_ips: 黑名单 IP 列表，将会直接拦截请求（一行一个）
-    newbie_limit_time: 新注册用户（新手）限制期，单位秒（0 不限制），在新手期不能创建新话题，仅能回帖
-    ban_reasons: 屏蔽原因，将会在屏蔽话题的时候作为选项（一行一个）
-    ban_reason_html: 屏蔽原因详细描述，用于在被屏蔽的话题后面给做补充提示（HTML 格式编写）
-    topic_create_limit_interval: 话题创建频率限制，间隔多久（单位：秒）
-    topic_create_hour_limit_count: 1 小时内，创建话题的数量限制（单位：篇）
+    newbie_limit_time: 新注册用户（新手）限制期，单位秒（0 不限制），在新手期不能创建新帖，仅能回帖
+    ban_reasons: 屏蔽原因，将会在屏蔽帖子的时候作为选项（一行一个）
+    ban_reason_html: 屏蔽原因详细描述，用于在被屏蔽的帖子后面给做补充提示（HTML 格式编写）
+    topic_create_limit_interval: 帖子创建频率限制，间隔多久（单位：秒）
+    topic_create_hour_limit_count: 1 小时内，创建帖子的数量限制（单位：篇）
     sign_up_daily_limit: 单日每个 IP 的注册用户数量限制，(0 不限制)
     use_recaptcha: 启用 Google reCaptcha 开启更强的验证码保护
     captcha_enable: 启用验证码
@@ -214,28 +214,28 @@ zh-CN:
     prev: 上一页
     gap: "&hellip;"
   topics:
-    new_topic: 发布新话题
-    edit_topic: 修改话题
+    new_topic: 发布新帖
+    edit_topic: 修改帖子
     reply: 回复
     no_replies: 暂无回复。
-    recent_topics: 最近发布的话题
-    recent_replies: 最近回复的话题
-    check_recent_topics: 查看更多最近发布的话题...
+    recent_topics: 最近发布的帖子
+    recent_replies: 最近回复的帖子
+    check_recent_topics: 查看更多最近发布的帖子...
     reply_this_fllor: 回复此楼
     tips_for_create_topic: 发帖说明
-    subscribe_with_rss: 订阅 %{name} 社区新话题
+    subscribe_with_rss: 订阅 %{name} 社区新帖
     submit_reply: 提交回复
     reply_to1: 对
     reply_to2: 回复
     in: 在
-    mentioned_this_topic: 提及了此话题。
+    mentioned_this_topic: 提及了此帖子。
     excellent_topic: 将本帖设为了精华贴。
     unexcellent_topic: 取消了精华贴。
     closed_topic: 关闭了讨论。
     reopen_topic: 重新开启了讨论。
-    banned_topic_with_reason_html: 屏蔽了此话题：<span class="ban-reason">%{reason}</span>
-    banned_topic: 内容不符合版规屏蔽此话题。
-    topic_has_been_banned_html: 此话题已暂时被管理员屏蔽。
+    banned_topic_with_reason_html: 屏蔽了此帖子：<span class="ban-reason">%{reason}</span>
+    banned_topic: 内容不符合版规屏蔽此帖子。
+    topic_has_been_banned_html: 此帖子已暂时被管理员屏蔽。
     topic_list:
       recent: 新帖
       last_reply: 最新回复
@@ -243,40 +243,40 @@ zh-CN:
       banned: 已屏蔽
       excellent: 精华帖
       latest: 最新动态
-    read_topic: 浏览话题
-    create_topic_success: 话题创建成功。
-    delete_topic_success: 话题删除成功。
-    update_topic_success: 话题修改成功。
+    read_topic: 浏览帖子
+    create_topic_success: 帖子创建成功。
+    delete_topic_success: 帖子删除成功。
+    update_topic_success: 帖子修改成功。
     reply_success: 回复成功。
     reply_this_floor: 回复此楼
     topic_was_deleted: "[该话题已被删除]"
     have_no_new_reply: 在你读过以后还没有新变化
     has_new_replies: 有新内容
-    more_like_this: 相关话题
-    node_recent_topics: 节点下其他话题
-    have_no_avatar: 你还未设置头像，不能发布新话题。
+    more_like_this: 相关帖子
+    node_recent_topics: 节点下其他帖子
+    have_no_avatar: 你还未设置头像，不能发布新帖。
     excellent_info_html: 本帖已被管理员设置为精华贴
     need_login_to_reply_html: >-
       需要 <a href="/account/sign_in" class="btn btn-primary">登录</a> 后方可回复
     newbi_info_html: 当前设置新手用户不能在 22:00 ~ 9:00 发帖。
-    closed_info_html: 此话题已于 %{closed_at} 关闭讨论，不再接受任何回复。
-    topic_pin_successfully: 话题置顶成功。
-    topic_unpin_successfully: 话题取消置顶成功。
-    excellent_successfully: 话题已设置为精华贴。
-    close_successfully: 话题已关闭，将不再接受任何新的回复。
-    reopen_successfully: 话题讨论重新开启成功。
-    normal_successfully: 话题恢复到正常状态。
-    ban_successfully: 屏蔽话题成功。
+    closed_info_html: 此帖子已于 %{closed_at} 关闭讨论，不再接受任何回复。
+    topic_pin_successfully: 帖子置顶成功。
+    topic_unpin_successfully: 帖子取消置顶成功。
+    excellent_successfully: 帖子已设置为精华贴。
+    close_successfully: 帖子已关闭，将不再接受任何新的回复。
+    reopen_successfully: 帖子讨论重新开启成功。
+    normal_successfully: 帖子恢复到正常状态。
+    ban_successfully: 屏蔽帖子成功。
     create_too_frequently: 创建太频繁，请稍后再试。
-    create_limit: 1 小时内创建话题量不允许超过 %{count} 篇，无法再次发布。
-    unban_successfully: 话题已取消了屏蔽。
+    create_limit: 1 小时内创建帖子量不允许超过 %{count} 篇，无法再次发布。
+    unban_successfully: 帖子已取消了屏蔽。
     total_replies_html: 共收到 <b>%{count}</b> 条回复
     total_topics_html: 共 <b>%{count}</b> 个讨论
     newbie_tip: 新手提示
     ban_title: 屏蔽原因
     ban_directly: 直接屏蔽
     ban_with_reason: 输入屏蔽原因：
-    closed_tooltip: 问题已解决／话题已结束讨论
+    closed_tooltip: 问题已解决／帖子已结束讨论
     sensitive_word_limit: 创建失败，内容包含敏感词：“%{word}”
     new_reply_received_html: 收到新回复，点击立即加载
     form:
@@ -284,14 +284,14 @@ zh-CN:
       no_team: 不关联组织
       markdown_guides: 排版说明
     menu:
-      pin: 置顶话题
-      unpin: 取消话题置顶
+      pin: 置顶帖子
+      unpin: 取消帖子置顶
       excellent: 设置为精华帖
-      ban: 屏蔽话题
+      ban: 屏蔽帖子
       unban: 取消屏蔽
       close: 关闭/结束讨论
       reopen: 重新打开讨论
-      edit: 修改话题
+      edit: 修改帖子
       delete: 删除
     references: 引用文章
     reference_by: 被文章引用
@@ -365,7 +365,7 @@ zh-CN:
     no_replies: 还未参与讨论。
     no_github: 未设置 GitHub 信息。
     menu:
-      topics: 话题
+      topics: 帖子
       recent_reply_topics: 最近回帖
       like: 赞
       overview: 概况
@@ -397,7 +397,7 @@ zh-CN:
     reject_team_user: 拒绝
     delete_team_user_confirm: 确定要将他从组里面移除掉么？
     do_you_want_accept_team_user_html: 你是否要接受邀请加入 <b>%{team}</b>？
-    topics: 成员的话题列表
+    topics: 成员的帖子列表
     users: 成员列表
     team_user_pendding: 等待接受
     settings: 设置
@@ -417,10 +417,10 @@ zh-CN:
     source_deleted: 相关信息已删除
     mention_title_html: 在 <a href="%{url}">%{title}</a> 提及了你
     comment_title_html: 在你发布的 <a href="%{url}">%{title}</a> 评论了
-    reply_title_html: 回复了话题 %{topic}
-    topic_title_html: 创建了话题 %{topic}
+    reply_title_html: 回复了帖子 %{topic}
+    topic_title_html: 创建了帖子 %{topic}
     follow_you: 关注了你。
-    node_changed_html: 你发布的话题 %{topic} 由于内容原因被管理员移动到了 %{node}  节点，请注意查看节点说明。
+    node_changed_html: 你发布的帖子 %{topic} 由于内容原因被管理员移动到了 %{node}  节点，请注意查看节点说明。
     invite_you_join: 邀请你加入
     show_invite: 查看邀请
     created_topic: "%{actor} 创建了话题 %{target}"
