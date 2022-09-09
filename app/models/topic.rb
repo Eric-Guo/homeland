@@ -58,6 +58,8 @@ class Topic < ApplicationRecord
     exclude_column_ids("node_id", ids)
   }
 
+  scope :without_anonymous, -> { where(anonymous: false) }
+
   before_create { self.last_active_mark = Time.now.to_i }
 
   def self.fields_for_list

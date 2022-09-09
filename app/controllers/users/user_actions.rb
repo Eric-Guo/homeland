@@ -14,11 +14,19 @@ module Users
     def topics
       @topics = @user.topics.fields_for_list.recent
       @topics = @topics.page(params[:page])
+
+      unless @is_self
+        @topics = @topics.without_anonymous
+      end
     end
 
     def replies
       @replies = @user.replies.without_system.fields_for_list.recent
       @replies = @replies.page(params[:page])
+
+      unless @is_self
+        @replies = @replies.without_anonymous
+      end
     end
 
     def favorites
@@ -77,6 +85,11 @@ module Users
     def user_show
       @replies = @user.replies.without_system.fields_for_list.recent.includes(:topic).limit(10)
       @topics = @user.topics.fields_for_list.high_likes.page(params[:page])
+
+      unless @is_self
+        @topics = @topics.without_anonymous
+        @replies = @topics.without_anonymous
+      end
     end
   end
 end

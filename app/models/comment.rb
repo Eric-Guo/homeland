@@ -8,6 +8,8 @@ class Comment < ApplicationRecord
   belongs_to :commentable, polymorphic: true
   belongs_to :user, optional: true
 
+  scope :without_anonymous, -> { where(anonymous: false) }
+
   validates :body, presence: true
 
   attr_writer :mentioned_user_ids
