@@ -20,6 +20,11 @@ class User
       end
     end
 
+    def gravatarurl
+      hash = Digest::MD5.hexdigest(email)
+      "https://unicornify.pictures/avatar/#{hash}?s=128"
+    end
+
     def large_avatar_url
       if self[:avatar].present?
         avatar.url(:lg)
