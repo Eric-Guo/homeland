@@ -130,4 +130,23 @@ class Topic < ApplicationRecord
     end
     @total_pages
   end
+
+  def write_tianwen_xml(prefix = 'topics')
+    Tianwen.write_xml([prefix, id].join('_')) do |tmpl|
+      tmpl.at_css('TRS_VERSION').content = 'D03' # 前端模板编号
+      tmpl.at_css('TRS_PRIMARY').content = "topic_#{id}" # 主键
+      tmpl.at_css('TRS_CATEGORY').content = node_name # 分类
+      tmpl.at_css('TRS_TITLE').add_child(tmpl.create_cdata(title)) # 标题
+      tmpl.at_css('TRS_ATTR1').add_child(tmpl.create_cdata(anonymous ? '匿名' : user&.name)) # 作者
+      tmpl.at_css('TRS_ORG').add_child(tmpl.create_cdata(team&.name)) # 发布组织
+      tmpl.at_css('TRS_SUMMARY').add_child(tmpl.create_cdata(body.slice(0, 120))) # 摘要
+      tmpl.at_css('TRS_CONTENT').add_child(tmpl.create_cdata(body_html)) # 内容
+      tmpl.at_css('TRS_BACKLINK').add_child(tmpl.create_cdata(Rails.application.routes.url_helpers.topics_url(id))) # 跳转链接
+      tmpl.at_css('TRS_CREATETIME').add_child(tmpl.create_cdata(created_at.to_fs(:db))) # 创建时间
+      tmpl.at_css('TRS_NRESERVED1').add_child(tmpl.create_cdata(0)) # 阅读数
+      tmpl.at_css('TRS_NRESERVED2').add_child(tmpl.create_cdata(replies_count)) # 回帖数
+      tmpl.at_css('TRS_NRESERVED3').add_child(tmpl.create_cdata(likes_count)) # 收藏数
+      tmpl.at_css('TRS_OPP').content = 1 # 1 for create, 2 for modify
+    end
+  end
 end
