@@ -226,4 +226,6 @@ Rails.application.routes.draw do
   end
 
   match "*path", to: "home#error_404", via: :all
+
+  default_url_options host: Setting.domain, protocol: Setting.protocol
 end
