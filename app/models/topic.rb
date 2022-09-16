@@ -143,7 +143,7 @@ class Topic < ApplicationRecord
       tmpl.at_css('TRS_ORG').add_child(tmpl.create_cdata(team&.name)) # 发布组织
       tmpl.at_css('TRS_SUMMARY').add_child(tmpl.create_cdata(body.slice(0, 120))) # 摘要
       tmpl.at_css('TRS_CONTENT').add_child(tmpl.create_cdata(body_html)) # 内容
-      tmpl.at_css('TRS_BACKLINK').add_child(tmpl.create_cdata(Rails.application.routes.url_helpers.topics_url(id))) # 跳转链接
+      tmpl.at_css('TRS_BACKLINK').add_child(tmpl.create_cdata(Rails.application.routes.url_helpers.topic_url(id))) # 跳转链接
       tmpl.at_css('TRS_CREATETIME').add_child(tmpl.create_cdata(created_at.to_fs(:db))) # 创建时间
       tmpl.at_css('TRS_NRESERVED1').add_child(tmpl.create_cdata(0)) # 阅读数
       tmpl.at_css('TRS_NRESERVED2').add_child(tmpl.create_cdata(replies_count)) # 回帖数
