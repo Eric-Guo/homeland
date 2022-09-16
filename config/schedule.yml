@@ -28,3 +28,9 @@ online_users_cleanup:
   class: "Scheduler::OnlineUserStatsJob"
   queue: default
   description: "Update online users stats"  
+
+tianwen_sync:
+  cron: "0 0 3 * * ?"
+  class: "Scheduler::TianwenSyncJob"
+  queue: default
+  description: "生成天问数据xml"
