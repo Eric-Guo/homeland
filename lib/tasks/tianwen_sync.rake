@@ -6,10 +6,6 @@ namespace :tianwen_sync do
 
   desc 'Sync topics'
   task topics: :environment do
-    prefix = 'topics'
-    sh "rm -rf #{Tianwen.store_path.join("#{prefix}_*.xml")}"
-    Topic.find_each do |topic|
-      topic.write_tianwen_xml(prefix)
-    end
+    Scheduler::TianwenSyncJob.perform_now
   end
 end
