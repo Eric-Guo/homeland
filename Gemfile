@@ -117,3 +117,6 @@ group :development, :test do
 
   gem "rubocop-rails-omakase", require: false
 end
+
+# bundle config local.wechat /Users/guochunzhong/git/oss/wechat/
+gem 'wechat', git: 'https://git.thape.com.cn/Eric-Guo/wechat.git', branch: :main
