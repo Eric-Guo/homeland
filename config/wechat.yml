@@ -1,0 +1,20 @@
+---
+default: &default
+  corpid: <%= ENV["wechat_corpid"] %>
+  corpsecret: <%= ENV["wechat_corp_secret"] %>
+  agentid: <%= ENV["wechat_corp_agentid"] %>
+  token: <%= ENV["wechat_corp_token"] %>
+  encrypt_mode: true
+  encoding_aes_key: <%= ENV["wechat_corp_encoding_aes_key"] %>
+  access_token: "tmp/wechat_default_access_token"
+  jsapi_ticket: "tmp/wechat_default_jsapi_ticket"
+
+production:
+  <<: *default
+
+development:
+  <<: *default
+  trusted_domain_fullname: "http://your_dev.proxy.qqbrowser.cc"
+
+test:
+  <<: *default

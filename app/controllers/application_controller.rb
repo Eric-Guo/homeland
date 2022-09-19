@@ -79,4 +79,19 @@ class ApplicationController < ActionController::Base
       end
     end
   end
+
+  # 企业微信自动登录
+  before_action :wxwork_auto_login
+  def wxwork_auto_login
+    if current_user.blank? && /MicroMessenger/i.match?(request.user_agent) && /wxwork/i.match?(request.user_agent)
+      wechat_oauth2 do |user_name|
+        return redirect_to new_user_session_path if user_name.blank?
+
+        user = User.find_by_login(user_name)
+        return redirect_to new_user_session_path if user.blank?
+
+        sign_in :user, user
+      end
+    end
+  end
 end
