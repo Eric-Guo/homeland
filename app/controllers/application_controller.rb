@@ -6,6 +6,8 @@ class ApplicationController < ActionController::Base
   include Turbolinks
   include UserNotifications
 
+  wechat_api
+
   protect_from_forgery prepend: true
   fragment_cache_key { user_locale }
 
