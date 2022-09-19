@@ -2,6 +2,8 @@
 
 module Auth
   class SSOController < ApplicationController
+    skip_before_action :wxwork_auto_login
+
     def show
       return render_404 unless Setting.sso_enabled?
 
