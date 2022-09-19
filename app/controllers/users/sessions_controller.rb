@@ -2,6 +2,7 @@
 
 class Users::SessionsController < Devise::SessionsController
   before_action :require_no_sso!, only: %i[new create]
+  skip_before_action :wxwork_auto_login, only: %i[new create]
 
   def create
     resource = warden.authenticate!(auth_options)
