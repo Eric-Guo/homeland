@@ -20,7 +20,7 @@
           <% if topic.last_reply_user_login.blank? %>
             <%= raw t("common.created_at", time: timeago(topic.created_at))%>
           <% else %>
-            <%= t("common.last_by")%> <%= user_name_tag(topic.last_reply_user_login, anonymous: topic.last_reply.anonymous) %> <%= raw t("common.reply_at", time: timeago(topic.replied_at))%>
+            <%= t("common.last_by")%> <%= user_name_tag(topic.last_reply_user, anonymous: topic.last_reply.anonymous) %> <%= raw t("common.reply_at", time: timeago(topic.replied_at))%>
           <% end %>
         </span>
       </div>
