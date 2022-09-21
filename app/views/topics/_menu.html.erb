@@ -24,6 +24,7 @@
     <% else %>
       <%= link_to t("topics.menu.unban"), action_topic_path(@topic, type: 'normal'), class: "dropdown-item", method: :post, remote: true %>
     <% end %>
+    <%= link_to t("topics.menu.push"), push_topic_path(@topic), class: "dropdown-item", remote: true %>
   <% end %>
   <% if can?(:destroy, @topic) %>
     <div class="dropdown-divider"></div>
