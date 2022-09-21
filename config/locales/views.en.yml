@@ -278,12 +278,15 @@ en:
     reopen_successfully: Topic has reopen successfully.
     ban_successfully: Topic has banned.
     unban_successfully: Topic has canceled ban.
+    push_successfully: Topic has pushed successfully.
     total_replies_html: Total <b>%{count}</b> replies
     total_topics_html: Total <b>%{count}</b> topics
     newbie_tip: Newbie Tip
     ban_title: Ban reason
     ban_directly: Ban without reason
     ban_with_reason: "Input the ban reason:"
+    push_title: "Push the topic"
+    push_with_reason: 'Input the push reason:'
     closed_tooltip: Topic has closed
     create_too_frequently: Create too frequently, please try again later.
     create_limit: Creation has been rejected by limit %{count} topics created within 1 hour.
@@ -303,6 +306,7 @@ en:
       reopen: Reopen
       edit: Edit
       delete: Delete
+      push: Push to everyone
     references: References
     reference_by: Reference By
     no_reference: No reference

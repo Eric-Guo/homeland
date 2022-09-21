@@ -31,6 +31,13 @@ class Topic
           update!(grade: :normal)
         end
       end
+
+      def push!(reason: "")
+        message = "系统推送\n标题：#{title}"
+        message << "\n理由：#{reason}" if reason.present?
+        message << "\n<a href=\"#{Rails.application.routes.url_helpers.topic_url(id)}\">查看详情</a>"
+        NotifyWxworkJob.perform_later('@all', message)
+      end
     end
 
     # Destroy record, and then log who deleted.

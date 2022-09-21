@@ -270,12 +270,15 @@ zh-CN:
     create_too_frequently: 创建太频繁，请稍后再试。
     create_limit: 1 小时内创建帖子量不允许超过 %{count} 篇，无法再次发布。
     unban_successfully: 帖子已取消了屏蔽。
+    push_successfully: 推送帖子成功。
     total_replies_html: 共收到 <b>%{count}</b> 条回复
     total_topics_html: 共 <b>%{count}</b> 个讨论
     newbie_tip: 新手提示
     ban_title: 屏蔽原因
     ban_directly: 直接屏蔽
     ban_with_reason: 输入屏蔽原因：
+    push_title: 推送这篇帖子
+    push_with_reason: 输入推送的理由：
     closed_tooltip: 问题已解决／帖子已结束讨论
     sensitive_word_limit: 创建失败，内容包含敏感词：“%{word}”
     new_reply_received_html: 收到新回复，点击立即加载
@@ -293,6 +296,7 @@ zh-CN:
       reopen: 重新打开讨论
       edit: 修改帖子
       delete: 删除
+      push: 推送给所有人
     references: 引用文章
     reference_by: 被文章引用
     no_reference: 无引用文章
