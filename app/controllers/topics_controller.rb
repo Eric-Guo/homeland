@@ -7,7 +7,7 @@ class TopicsController < ApplicationController
     favorite unfavorite follow unfollow
     action favorites]
   load_and_authorize_resource only: %i[new edit create update destroy favorite unfavorite follow unfollow]
-  before_action :set_topic, only: %i[edit read update destroy follow unfollow action ban]
+  before_action :set_topic, only: %i[edit read update destroy follow unfollow action ban push]
   before_action :set_notes, only: %i[index last excellent popular banned last_reply node]
 
   def index
@@ -143,6 +143,10 @@ class TopicsController < ApplicationController
     authorize! :ban, @topic
   end
 
+  def push
+    authorize! :push, @topic
+  end
+
   def action
     authorize! params[:type].to_sym, @topic
 
@@ -163,6 +167,9 @@ class TopicsController < ApplicationController
     when "open"
       @topic.open!
       redirect_to @topic, notice: t("topics.reopen_successfully")
+    when "push"
+      @topic.push!(reason: params[:reason_text]&.strip)
+      redirect_to @topic, notice: t("topics.push_successfully")
     end
   end
 
