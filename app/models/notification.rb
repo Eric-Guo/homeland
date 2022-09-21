@@ -11,7 +11,7 @@ class Notification < ActiveRecord::Base
     if user
       Notification.realtime_push_to_client(user)
       PushJob.perform_later(user_id, apns_note)
-      NotifyWxworkJob.perform_later(user_id, wxwork_message)
+      NotifyWxworkJob.perform_later(user.login, wxwork_message)
     end
   end
 
