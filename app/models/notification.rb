@@ -11,6 +11,7 @@ class Notification < ActiveRecord::Base
     if user
       Notification.realtime_push_to_client(user)
       PushJob.perform_later(user_id, apns_note)
+      NotifyWxworkJob.perform_later(user_id, wxwork_message)
     end
   end
 
@@ -30,13 +31,13 @@ class Notification < ActiveRecord::Base
   def notify_title
     return "" if actor.blank?
     if notify_type == "topic"
-      I18n.t("notifications.created_topic", actor: actor.login, target: target.title)
+      I18n.t("notifications.created_topic", actor: anonymous ? I18n.t("common.unknow_user") : actor.name, target: target.title)
     elsif notify_type == "topic_reply"
-      I18n.t("notifications.created_reply", actor: actor.login, target: second_target.title)
+      I18n.t("notifications.created_reply", actor: anonymous ? I18n.t("common.unknow_user") : actor.name, target: second_target.title)
     elsif notify_type == "follow"
-      I18n.t("notifications.followed_you", actor: actor.login)
+      I18n.t("notifications.followed_you", actor: actor.name)
     elsif notify_type == "mention"
-      I18n.t("notifications.mentioned_you", actor: actor.login)
+      I18n.t("notifications.mentioned_you", actor: anonymous ? I18n.t("common.unknow_user") : actor.name)
     elsif notify_type == "node_changed"
       I18n.t("notifications.node_changed", node: second_target.name)
     else
@@ -51,6 +52,17 @@ class Notification < ActiveRecord::Base
       target&.anonymous
     else
       false
+    end
+  end
+
+  def wxwork_message
+    case notify_type
+    when "topic"
+      "#{notify_title}\n<a href=\"#{Rails.application.routes.url_helpers.topic_url(target)}\">查看详情</a>"
+    when "topic_reply"
+      "#{notify_title}\n<a href=\"#{Rails.application.routes.url_helpers.topic_url(second_target)}\">查看详情</a>"
+    else
+      "#{notify_title}\n<a href=\"#{Rails.application.routes.url_helpers.root_url}\">查看详情</a>"
     end
   end
 
