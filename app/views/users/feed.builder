@@ -9,7 +9,7 @@ xml.rss(version: "2.0") do
       xml.item do
         xml.title topic.title
         xml.description topic.body_html
-        xml.author @user.login
+        xml.author topic.anonymous ? t("common.unknow_user") : @user.login
         xml.pubDate(topic.created_at.strftime("%a, %d %b %Y %H:%M:%S %z"))
         xml.link topic_url topic
         xml.guid topic_url topic
