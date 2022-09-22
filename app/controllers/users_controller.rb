@@ -25,7 +25,7 @@ class UsersController < ApplicationController
   end
 
   def feed
-    @topics = @user.topics.recent.limit(20)
+    @topics = @user.topics.recent.without_anonymous.limit(20)
   end
 
   def city
