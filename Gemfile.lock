@@ -690,7 +690,7 @@ DEPENDENCIES
   pghero
   postmark
   postmark-rails
-  puma
+  puma (< 6)
   puma_worker_killer
   qiniu
   rack-attack
