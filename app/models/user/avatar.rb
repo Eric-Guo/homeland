@@ -19,7 +19,9 @@ class User
     end
 
     def gravatarurl
-      hash = Digest::MD5.hexdigest(email)
+      @@prng ||= Random.new
+      random_email = "#{email}#{@@prng.rand(10)}"
+      hash = Digest::MD5.hexdigest(random_email)
       "https://unicornify.pictures/avatar/#{hash}?s=128"
     end
 
