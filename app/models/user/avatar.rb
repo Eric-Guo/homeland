@@ -22,7 +22,7 @@ class User
       @@prng ||= Random.new
       random_email = "#{email}#{@@prng.rand(10)}"
       hash = Digest::MD5.hexdigest(random_email)
-      "https://unicornify.pictures/avatar/#{hash}?s=128"
+      "/avatar/#{hash}.png"
     end
 
     def large_avatar_url
