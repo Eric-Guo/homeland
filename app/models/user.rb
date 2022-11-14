@@ -44,6 +44,7 @@ class User < ApplicationRecord
   validates :name, length: { maximum: 20 }
 
   after_commit :send_welcome_mail, on: :create
+  after_commit :generate_unicornify_avatar, on: :create
 
   scope :hot, -> { order(replies_count: :desc).order(topics_count: :desc) }
   scope :without_team, -> { where(type: nil) }
@@ -111,6 +112,10 @@ class User < ApplicationRecord
 
   def send_welcome_mail
     UserMailer.welcome(id).deliver_later
+  end
+
+  def generate_unicornify_avatar
+    GenerateUnicornifyAvatarJob.perform_async(id)
   end
 
   def profile_url
