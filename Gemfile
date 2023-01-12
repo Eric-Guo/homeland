@@ -7,6 +7,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 gem "jbuilder"
 gem "rails", "~> 7.1.3"
 gem "rails_autolink"
+gem "faker"
 gem "sass-rails"
 gem "shakapacker", "~> 8.0"
 gem "turbolinks"

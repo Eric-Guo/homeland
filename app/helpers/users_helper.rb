@@ -5,7 +5,7 @@ require "digest/md5"
 module UsersHelper
   # Genrate a user name link
   def user_name_tag(user, options = {})
-    return t("common.unknow_user") if user.blank? || options[:anonymous].present?
+    return Faker::Food.fruits if user.blank? || options[:anonymous].present?
 
     user_type = :user
     login = user
