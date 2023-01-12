@@ -1,3 +1,17 @@
+GIT
+  remote: https://git.thape.com.cn/Eric-Guo/wechat.git
+  revision: 343b8145c2401d0a4354a3194001c913ab8624b5
+  branch: main
+  specs:
+    wechat (1.0.1)
+      activesupport (>= 6.0, < 9)
+      httpx (>= 1.3.4)
+      nokogiri (>= 1.6.0)
+      ostruct
+      rexml
+      thor
+      zeitwerk (~> 2.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -117,16 +131,16 @@ GEM
       capistrano (>= 3.9.0)
       capistrano-bundler
       sidekiq (>= 7.0)
-    capistrano3-puma (7.0.0)
+    capistrano3-puma (6.2.0)
       capistrano (~> 3.7)
       capistrano-bundler
-      puma (>= 6.1, < 8.0)
-    carrierwave (2.2.6)
+      puma (>= 5.1, < 7.0)
+    carrierwave (2.2.0)
       activemodel (>= 5.0.0)
       activesupport (>= 5.0.0)
       addressable (~> 2.6)
       image_processing (~> 1.1)
-      marcel (~> 1.0.0)
+      mimemagic (>= 0.3.0)
       mini_mime (>= 0.1.3)
       ssrf_filter (~> 1.0)
     carrierwave-aliyun (1.2.3)
@@ -206,6 +220,8 @@ GEM
     factory_bot_rails (6.5.1)
       factory_bot (~> 6.5)
       railties (>= 6.1.0)
+    faker (3.5.2)
+      i18n (>= 1.8.11, < 2)
     faraday (2.14.0)
       faraday-net_http (>= 2.0, < 3.5)
       json
@@ -235,10 +251,13 @@ GEM
     html-pipeline-auto-correct (0.2.0)
       autocorrect-rb (>= 2.1.2)
       html-pipeline (>= 2.0)
+    http-2 (1.1.1)
     http-accept (1.7.0)
     http-cookie (1.1.0)
       domain_name (~> 0.5)
     http_accept_language (2.1.1)
+    httpx (1.6.2)
+      http-2 (>= 1.0.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     image_processing (1.14.0)
@@ -288,12 +307,15 @@ GEM
       net-imap
       net-pop
       net-smtp
-    marcel (1.0.4)
+    marcel (1.1.0)
     memory_profiler (1.1.0)
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
     mime-types-data (3.2025.0924)
+    mimemagic (0.4.3)
+      nokogiri (~> 1)
+      rake
     mini_histogram (0.3.1)
     mini_magick (5.3.1)
       logger
@@ -400,7 +422,7 @@ GEM
       date
       stringio
     public_suffix (6.0.2)
-    puma (7.0.4)
+    puma (5.6.9)
       nio4r (~> 2.0)
     puma_worker_killer (1.0.0)
       bigdecimal (>= 2.0)
@@ -668,6 +690,7 @@ DEPENDENCIES
   enumize
   exception-track
   factory_bot_rails
+  faker
   faraday-rack
   html-pipeline (~> 2.14)
   html-pipeline-auto-correct
@@ -716,6 +739,7 @@ DEPENDENCIES
   twemoji
   uglifier
   view_component
+  wechat!
 
 BUNDLED WITH
    2.7.2
