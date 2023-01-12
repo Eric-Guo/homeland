@@ -89,8 +89,8 @@ en:
     captcha: Captcha
     search_result: Search results
     tips: Tips
-    unknow_error: Unknow error, please try out later.
-    unknow_user: Unknow user
+    unknow_error: Unknown error, please try out later.
+    unknow_user: Unknown user
     block_node: Block node
     unblock_node: Unblock node
     block_node_title: Block this node, you will not see topics in this node.
