@@ -111,6 +111,8 @@ group :development do
   gem 'capistrano-rbenv'
   gem 'capistrano-sidekiq', require: false
   gem 'capistrano3-puma'
+  gem "ed25519"
+  gem "bcrypt_pbkdf"
 end
 
 group :development, :test do
