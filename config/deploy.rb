@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # config valid for current version and patch releases of Capistrano
-lock '~> 3.17.1'
+lock '~> 3.17.2'
 
 set :application, 'thape_forum'
 set :repo_url, 'git@git.thape.com.cn:rails/homeland.git'
