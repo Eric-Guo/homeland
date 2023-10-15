@@ -84,6 +84,7 @@ gem "postmark"
 gem "postmark-rails"
 
 gem "puma", "< 6"
+gem "rack", "~> 2.2"
 
 # API CORS
 gem "rack-cors", require: "rack/cors"
