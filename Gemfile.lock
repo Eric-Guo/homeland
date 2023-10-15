@@ -716,6 +716,7 @@ DEPENDENCIES
   puma (< 6)
   puma_worker_killer
   qiniu
+  rack (~> 2.2)
   rack-attack
   rack-cors
   rails (~> 8)
