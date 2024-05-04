@@ -128,3 +128,5 @@ end
 
 # bundle config local.wechat /Users/guochunzhong/git/oss/wechat/
 gem 'wechat', git: 'https://git.thape.com.cn/Eric-Guo/wechat.git', branch: :main
+
+gem 'multi_xml', '~> 0.6.0'
