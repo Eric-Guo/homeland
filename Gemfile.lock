@@ -98,12 +98,10 @@ GEM
       nokogiri (~> 1.6)
       rest-client (~> 2.0)
     ast (2.4.2)
-    autocorrect-rb (2.9.4-arm64-darwin)
-      rb_sys (>= 0.9.54)
-    autocorrect-rb (2.9.4-x86_64-linux)
-      rb_sys (>= 0.9.54)
-    autocorrect-rb (2.9.4-x86_64-linux-musl)
-      rb_sys (>= 0.9.54)
+    autocorrect-rb (2.5.6-arm64-darwin)
+      rb_sys (>= 0.9.18)
+    autocorrect-rb (2.5.6-x86_64-linux)
+      rb_sys (>= 0.9.18)
     base64 (0.2.0)
     bcrypt (3.1.20)
     bcrypt_pbkdf (1.1.1)
@@ -514,15 +512,12 @@ GEM
     ruby-vips (2.2.1)
       ffi (~> 1.12)
     ruby2_keywords (0.0.5)
-    rucaptcha (3.2.3-arm64-darwin)
+    rucaptcha (3.1.2-arm64-darwin)
       railties (>= 3.2)
-      rb_sys (>= 0.9.86)
-    rucaptcha (3.2.3-x86_64-linux)
+      rb_sys (>= 0.9.18)
+    rucaptcha (3.1.2-x86_64-linux)
       railties (>= 3.2)
-      rb_sys (>= 0.9.86)
-    rucaptcha (3.2.3-x86_64-linux-musl)
-      railties (>= 3.2)
-      rb_sys (>= 0.9.86)
+      rb_sys (>= 0.9.18)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -613,11 +608,9 @@ GEM
     zeitwerk (2.6.15)
 
 PLATFORMS
-  arm64-darwin-21
   arm64-darwin-22
   arm64-darwin-23
   x86_64-linux
-  x86_64-linux-musl
 
 DEPENDENCIES
   action-store
