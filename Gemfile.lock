@@ -318,8 +318,7 @@ GEM
     mocha (2.3.0)
       ruby2_keywords (>= 0.0.5)
     msgpack (1.7.2)
-    multi_xml (0.7.1)
-      bigdecimal (~> 3.1)
+    multi_xml (0.6.0)
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
@@ -654,6 +653,7 @@ DEPENDENCIES
   mini_magick
   minitest-spec-rails
   mocha
+  multi_xml (~> 0.6.0)
   notifications
   omniauth
   omniauth-github
