@@ -4,6 +4,9 @@ source "https://gems.ruby-china.com"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
+ruby "~> 3.0"
+gem "ffi", "~> 1.16.0"
+
 gem "jbuilder"
 gem "rails", "~> 7.1.3"
 gem "rails_autolink"
