@@ -382,7 +382,7 @@ GEM
     orm_adapter (0.5.0)
     package_json (0.1.0)
     parallel (1.25.1)
-    parser (3.3.3.0)
+    parser (3.3.4.0)
       ast (~> 2.4.1)
       racc
     pg (1.5.6)
@@ -531,7 +531,7 @@ GEM
       activerecord (>= 6.0)
       activesupport (>= 6.0)
     semantic_range (3.0.0)
-    shakapacker (8.0.0)
+    shakapacker (8.0.1)
       activesupport (>= 5.2)
       package_json
       rack-proxy (>= 0.6.1)
@@ -698,4 +698,4 @@ RUBY VERSION
    ruby 3.3.2p78
 
 BUNDLED WITH
-   2.5.14
+   2.5.15
