@@ -1,10 +1,10 @@
 GIT
   remote: https://git.thape.com.cn/Eric-Guo/wechat.git
-  revision: 083af89bbbfacb099d466e8cdd2cd6fa92bc3235
+  revision: ad22e6af8c0d953604fde3a16a9cbcbd58086340
   branch: main
   specs:
     wechat (0.17.3)
-      activesupport (>= 6.0)
+      activesupport (>= 6.0, < 8)
       http (>= 1.0.4, < 6)
       nokogiri (>= 1.6.0)
       rexml
@@ -160,7 +160,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.3.3)
+    concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
     crass (1.0.6)
     dalli (3.2.8)
@@ -382,7 +382,7 @@ GEM
       omniauth-oauth2 (>= 1.7.3)
     orm_adapter (0.5.0)
     package_json (0.1.0)
-    parallel (1.26.1)
+    parallel (1.26.2)
     parser (3.3.4.2)
       ast (~> 2.4.1)
       racc
@@ -487,7 +487,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
-    rexml (3.3.4)
+    rexml (3.3.5)
       strscan
     rouge (4.3.0)
     rubocop (1.64.1)
