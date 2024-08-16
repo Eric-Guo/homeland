@@ -1,6 +1,6 @@
 GIT
   remote: https://git.thape.com.cn/Eric-Guo/wechat.git
-  revision: 52acb663c9bc033507d9649ed0fa53d571198dfa
+  revision: 79a714f8b84ceb10804c6afed2faafc4cb4eb35a
   branch: main
   specs:
     wechat (0.17.4)
@@ -226,7 +226,7 @@ GEM
       rake
     form-select (0.3.2)
       rails (>= 4.2)
-    fugit (1.11.0)
+    fugit (1.11.1)
       et-orbi (~> 1, >= 1.2.11)
       raabro (~> 1.4)
     get_process_mem (0.2.7)
