@@ -571,7 +571,7 @@ GEM
       net-ssh (>= 2.8.0)
       ostruct
     ssrf_filter (1.1.2)
-    standard (1.40.0)
+    standard (1.40.1)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
       rubocop (~> 1.65.0)
@@ -704,4 +704,4 @@ RUBY VERSION
    ruby 3.3.2p78
 
 BUNDLED WITH
-   2.5.20
+   2.5.21
