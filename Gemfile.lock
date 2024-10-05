@@ -320,7 +320,7 @@ GEM
       railties (>= 4.1)
     mocha (2.4.5)
       ruby2_keywords (>= 0.0.5)
-    msgpack (1.7.2)
+    msgpack (1.7.3)
     multi_xml (0.6.0)
     mutex_m (0.2.0)
     net-http (0.4.1)
