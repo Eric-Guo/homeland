@@ -165,18 +165,23 @@ GEM
     crass (1.0.6)
     dalli (3.2.8)
     date (3.3.4)
-    dead_end (4.0.0)
-    derailed_benchmarks (2.1.2)
+    derailed_benchmarks (2.2.0)
+      base64
       benchmark-ips (~> 2)
-      dead_end
+      bigdecimal
+      drb
       get_process_mem (~> 0)
       heapy (~> 0)
+      logger
       memory_profiler (>= 0, < 2)
       mini_histogram (>= 0.3.0)
+      mutex_m
+      ostruct
       rack (>= 1)
       rack-test
       rake (> 10, < 14)
-      ruby-statistics (>= 2.1)
+      ruby-statistics (>= 4.0.1)
+      ruby2_keywords
       thor (>= 0.19, < 2)
     devise (4.9.4)
       bcrypt (~> 3.0)
