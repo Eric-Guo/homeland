@@ -1141,14 +1141,14 @@
     prettier ">=2.3.0"
 
 "@rails/actioncable@~7.1.1":
-  version "7.1.401"
-  resolved "https://registry.npmmirror.com/@rails/actioncable/-/actioncable-7.1.401.tgz#27fb53aabff13e1663fda7c8dec3b2b688123937"
-  integrity sha512-ddfzXrbqoxCGTxSgF6swiDN4TC/JblCZv/LcuC+wMVtt6e5qIIoG4Wp2UqJcOip68NnboGE4AUb9J1bLtQE0eg==
+  version "7.1.402"
+  resolved "https://registry.npmmirror.com/@rails/actioncable/-/actioncable-7.1.402.tgz#f08dd4ce8a87a1e711c3e1350c97833f752a2941"
+  integrity sha512-QS7HPxha2trXkT53XM6/ICqhRcA7hyqXV5JkH0y2nqPWn6Og3x6sVB8foXDP69/hJcPY9vwKAmJfHiCkx9yWfw==
 
 "@rails/ujs@~7.1.1":
-  version "7.1.401"
-  resolved "https://registry.npmmirror.com/@rails/ujs/-/ujs-7.1.401.tgz#b91ad91228f96ded6c3840c0e3c007f56d2be7c9"
-  integrity sha512-vyBrYC+3wY3Sb6kcTeFG2L18jygcB27sv50tGGFONwOoMcmlltLm/2J8wB9KifQkRl87B86kLmyFywvhELcnTQ==
+  version "7.1.402"
+  resolved "https://registry.npmmirror.com/@rails/ujs/-/ujs-7.1.402.tgz#5d4e7e5d1e2e22df081bf5693fc75f0725635130"
+  integrity sha512-q9dDlIR+anDtuGcV56rLnqHAxtWo8vkSnvfFt7juthvHc+97NEtGlnM++uhvnlDbR+7EGkX8nGqQIF8R93oWMQ==
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -2260,9 +2260,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.41:
-  version "1.5.43"
-  resolved "https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.5.43.tgz#d9e69fc709ddebd521416de9d17cdef81d2d4718"
-  integrity sha512-NxnmFBHDl5Sachd2P46O7UJiMaMHMLSofoIWVJq3mj8NJgG0umiSeljAVP9lGzjI0UDLJJ5jjoGjcrB8RSbjLQ==
+  version "1.5.44"
+  resolved "https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.5.44.tgz#0106d327c7d0e7b7bb66fd2da0aaf084ddf1fda5"
+  integrity sha512-Lz3POUa7wANQA8G+9btKAdH+cqkfWCBdkotvQZJVOqRXMYGm1tTD835Z01iCjWpEBf0RInPBWuPfzhGbxOCULw==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
