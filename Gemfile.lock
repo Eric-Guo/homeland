@@ -1,9 +1,9 @@
 GIT
   remote: https://git.thape.com.cn/Eric-Guo/wechat.git
-  revision: 79a714f8b84ceb10804c6afed2faafc4cb4eb35a
+  revision: 37cc550a4a934e09b0ecd9a91021d71c611bd78c
   branch: main
   specs:
-    wechat (0.17.4)
+    wechat (0.17.5)
       activesupport (>= 6.0, < 8)
       http (>= 1.0.4, < 6)
       nokogiri (>= 1.6.0)
@@ -213,8 +213,8 @@ GEM
     execjs (2.10.0)
     factory_bot (6.5.0)
       activesupport (>= 5.0.0)
-    factory_bot_rails (6.4.3)
-      factory_bot (~> 6.4)
+    factory_bot_rails (6.4.4)
+      factory_bot (~> 6.5)
       railties (>= 5.0.0)
     faker (3.5.1)
       i18n (>= 1.8.11, < 2)
@@ -273,7 +273,7 @@ GEM
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     jieba-rb (5.0.0)
-    json (2.7.3)
+    json (2.7.4)
     jwt (2.9.3)
       base64
     kaminari (1.2.2)
@@ -302,7 +302,7 @@ GEM
       ffi-compiler (~> 1.0)
       rake (~> 13.0)
     logger (1.6.1)
-    loofah (2.23.0)
+    loofah (2.23.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.8.1)
