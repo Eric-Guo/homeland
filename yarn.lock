@@ -1114,14 +1114,14 @@
     prettier ">=2.3.0"
 
 "@rails/actioncable@~7.1.1":
-  version "7.1.500"
-  resolved "https://registry.npmmirror.com/@rails/actioncable/-/actioncable-7.1.500.tgz#c6753ff47f90e07f4364ae745c497eee3f8dcfb5"
-  integrity sha512-fIYZHLWmiNaUXC8XiDVbCLIAMq86z9EULjbuU7uVcoHDT+2NveOY7o4SzrH6BXstEeWb7sHH+I/snv6/uWmF4g==
+  version "7.1.501"
+  resolved "https://registry.npmmirror.com/@rails/actioncable/-/actioncable-7.1.501.tgz#52e1abda14e213ebf1a62c4aed61563ca5c6cfb1"
+  integrity sha512-oQOkHNemn+xPdtOgO/nae2S/GSvuII560pb5BGjTXfOd70JJ4yw9LLp2geDth45we5PaGw2BSIY0ImaG71NPNQ==
 
 "@rails/ujs@~7.1.1":
-  version "7.1.500"
-  resolved "https://registry.npmmirror.com/@rails/ujs/-/ujs-7.1.500.tgz#84bb037b6a823ec7fb7782a2ac03452deb505128"
-  integrity sha512-PfPtQrxFOn55RlJ4ygXkcIHFkoPO1JMTRJcSdPb0EavcSZ3Ekl9ujAAPrrqj2zKwkbe0pGGR79RJhnUr5ngQjw==
+  version "7.1.501"
+  resolved "https://registry.npmmirror.com/@rails/ujs/-/ujs-7.1.501.tgz#e560a7b6885a12a659c4beb47f4336c8a9353056"
+  integrity sha512-7EDRGUlgns12IgP3SXVSaxA3CwRzbLOypPXn1EqEZiZ/NS/PwaQ/oa7Z2VRO4B46JifoVr0PYg+G5ERSGQJHxQ==
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -3233,9 +3233,9 @@ node-forge@^1:
   integrity sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==
 
 node-releases@^2.0.18:
-  version "2.0.18"
-  resolved "https://registry.npmmirror.com/node-releases/-/node-releases-2.0.18.tgz#f010e8d35e2fe8d6b2944f03f70213ecedc4ca3f"
-  integrity sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==
+  version "2.0.19"
+  resolved "https://registry.npmmirror.com/node-releases/-/node-releases-2.0.19.tgz#9e445a52950951ec4d177d843af370b411caf314"
+  integrity sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
