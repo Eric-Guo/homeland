@@ -1,9 +1,9 @@
 GIT
   remote: https://git.thape.com.cn/Eric-Guo/wechat.git
-  revision: 14a97baa2cc98e4a09b3a9aa389bb9a44942a549
+  revision: f162c30bc768d67bf73a395de4f6e76f262cf53d
   branch: main
   specs:
-    wechat (0.17.5)
+    wechat (0.17.6)
       activesupport (>= 6.0, < 9)
       http (>= 1.0.4, < 6)
       nokogiri (>= 1.6.0)
@@ -273,7 +273,7 @@ GEM
       mini_magick (>= 4.9.5, < 5)
       ruby-vips (>= 2.0.17, < 3)
     io-console (0.8.0)
-    irb (1.14.1)
+    irb (1.14.2)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jbuilder (2.13.0)
