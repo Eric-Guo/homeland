@@ -111,7 +111,7 @@ GEM
     bcrypt_pbkdf (1.1.1-arm64-darwin)
     benchmark (0.4.0)
     benchmark-ips (2.14.0)
-    bigdecimal (3.1.8)
+    bigdecimal (3.1.9)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
     builder (3.3.0)
