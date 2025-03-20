@@ -101,7 +101,7 @@ GEM
     aliyun-sdk (0.8.0)
       nokogiri (~> 1.6)
       rest-client (~> 2.0)
-    ast (2.4.2)
+    ast (2.4.3)
     autocorrect-rb (2.13.0-arm64-darwin)
       rb_sys (>= 0.9.54)
     autocorrect-rb (2.13.0-x86_64-linux)
