@@ -5,6 +5,6 @@ set :rails_env, 'production'
 set :puma_service_unit_name, :puma_thape_forum
 set :puma_systemctl_user, :system
 set :sidekiq_service_unit_name, :sidekiq_thape_forum
-set :sidekiq_service_unit_user, :system
+set :service_unit_user, :system
 
-server 'thape_plm', user: 'thape_forum', roles: %w{app db web}
+server 'thape_plm', user: 'thape_forum', roles: %w{app db web worker}
