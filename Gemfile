@@ -109,7 +109,7 @@ group :development do
   gem 'capistrano'
   gem 'capistrano-rails'
   gem 'capistrano-rbenv'
-  gem 'capistrano-sidekiq', '~> 2.3', require: false
+  gem 'capistrano-sidekiq', require: false
   gem 'capistrano3-puma'
   gem "ed25519"
   gem "bcrypt_pbkdf"
