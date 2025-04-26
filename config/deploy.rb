@@ -4,7 +4,7 @@
 lock '~> 3.19.0'
 
 set :application, 'thape_forum'
-set :repo_url, 'git@git.thape.com.cn:rails/homeland.git'
+set :repo_url, 'https://git.thape.com.cn/rails/homeland.git'
 
 # Default branch is :master
 set :branch, 'thape_forum'
