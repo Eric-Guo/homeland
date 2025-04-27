@@ -5,7 +5,11 @@ class GenerateUnicornifyAvatarJob
     user = User.find user_id
     return unless user.present?
 
-    unicorn_avatar_path = Rails.root.join("public", "avatar")
+    unicorn_avatar_path = if Rails.env.production?
+                            '/var/www/thape_forum/shared/public/avatar'
+                          else
+                            Rails.root.join('public', 'avatar')
+                          end
     (0..9).each do |i|
       random_email = "#{user.email}#{i}"
       random_hash = Digest::MD5.hexdigest(random_email)
