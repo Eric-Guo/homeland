@@ -1,6 +1,6 @@
 GIT
   remote: https://git.thape.com.cn/Eric-Guo/wechat.git
-  revision: 9d436ac846ea8cd04b22a9af17003b5ef95028f5
+  revision: 885681aeedbb07a63445ef43379d447c6122e272
   branch: main
   specs:
     wechat (0.17.7)
@@ -419,7 +419,7 @@ GEM
       prettyprint
     prettyprint (0.2.0)
     prism (1.4.0)
-    psych (5.2.3)
+    psych (5.2.4)
       date
       stringio
     public_suffix (6.0.2)
