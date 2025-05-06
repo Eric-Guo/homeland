@@ -1,6 +1,6 @@
 GIT
   remote: https://git.thape.com.cn/Eric-Guo/wechat.git
-  revision: 9131aecfe2777cca47452235b8a096891eb45490
+  revision: 9c157312df2cf1b26af5f6f22a5c24a36cb976ce
   branch: main
   specs:
     wechat (0.17.7)
@@ -507,7 +507,7 @@ GEM
       netrc (~> 0.8)
     rexml (3.4.1)
     rouge (4.5.2)
-    rubocop (1.75.4)
+    rubocop (1.75.5)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -621,7 +621,7 @@ GEM
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
     uri (0.13.1)
-    version_gem (1.1.7)
+    version_gem (1.1.8)
     view_component (2.83.0)
       activesupport (>= 5.2.0, < 8.0)
       concurrent-ruby (~> 1.0)
