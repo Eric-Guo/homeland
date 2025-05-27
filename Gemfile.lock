@@ -399,8 +399,8 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.5.9)
-    pghero (3.6.2)
-      activerecord (>= 6.1)
+    pghero (3.7.0)
+      activerecord (>= 7.1)
     postmark (1.25.1)
       json
     postmark-rails (0.22.1)
