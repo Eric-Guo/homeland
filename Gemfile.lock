@@ -315,7 +315,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2025.0708)
+    mime-types-data (3.2025.0715)
     mini_histogram (0.3.1)
     mini_magick (5.3.0)
       logger
@@ -391,7 +391,7 @@ GEM
     omniauth-wechat-oauth2 (0.2.3)
       omniauth-oauth2 (>= 1.7.3)
     orm_adapter (0.5.0)
-    ostruct (0.6.2)
+    ostruct (0.6.3)
     package_json (0.1.0)
     parallel (1.27.0)
     parser (3.3.8.0)
@@ -518,7 +518,7 @@ GEM
       rubocop-ast (>= 1.44.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.45.1)
+    rubocop-ast (1.46.0)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
     rubocop-performance (1.25.0)
