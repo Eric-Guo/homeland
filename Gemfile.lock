@@ -102,10 +102,10 @@ GEM
       nokogiri (~> 1.6)
       rest-client (~> 2.0)
     ast (2.4.3)
-    autocorrect-rb (2.13.0-arm64-darwin)
-      rb_sys (>= 0.9.54)
-    autocorrect-rb (2.13.0-x86_64-linux)
-      rb_sys (>= 0.9.54)
+    autocorrect-rb (2.13.1)
+      rb_sys (>= 0.9.105)
+    autocorrect-rb (2.13.1-arm64-darwin)
+      rb_sys (>= 0.9.105)
     base64 (0.3.0)
     bcrypt (3.1.20)
     bcrypt_pbkdf (1.1.1)
@@ -211,6 +211,7 @@ GEM
     ed25519 (1.4.0)
     enumize (0.2.1)
       rails (>= 5.0.0)
+    erb (5.0.2)
     erubi (1.13.1)
     et-orbi (1.2.11)
       tzinfo
@@ -399,8 +400,8 @@ GEM
       racc
     pg (1.6.0-arm64-darwin)
     pg (1.6.0-x86_64-linux)
-    pghero (3.6.2)
-      activerecord (>= 6.1)
+    pghero (3.7.0)
+      activerecord (>= 7.1)
     postmark (1.25.1)
       json
     postmark-rails (0.22.1)
@@ -490,7 +491,8 @@ GEM
       ffi (~> 1.0)
     rb_sys (0.9.116)
       rake-compiler-dock (= 1.9.1)
-    rdoc (6.13.1)
+    rdoc (6.14.2)
+      erb
       psych (>= 4.0.0)
     recaptcha (5.20.1)
     redcarpet (3.6.1)
@@ -534,12 +536,12 @@ GEM
       ffi (~> 1.12)
       logger
     ruby2_keywords (0.0.5)
-    rucaptcha (3.1.2-arm64-darwin)
+    rucaptcha (3.3.0-arm64-darwin)
       railties (>= 3.2)
-      rb_sys (>= 0.9.18)
-    rucaptcha (3.1.2-x86_64-linux)
+      rb_sys (>= 0.9.105)
+    rucaptcha (3.3.0-x86_64-linux)
       railties (>= 3.2)
-      rb_sys (>= 0.9.18)
+      rb_sys (>= 0.9.105)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -634,7 +636,7 @@ GEM
       base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.18)
+    zeitwerk (2.7.3)
 
 PLATFORMS
   arm64-darwin-22
