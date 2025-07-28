@@ -41,7 +41,7 @@ append :linked_dirs, *%w[log tmp/pids tmp/cache tmp/sockets public/avatar public
 # set :ssh_options, verify_host_key: :secure
 
 set :rbenv_type, :user
-set :rbenv_ruby, '3.1.7'
+set :rbenv_ruby, '3.3.8'
 
 set :puma_init_active_record, true
 set :puma_phased_restart, true
