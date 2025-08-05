@@ -66,6 +66,7 @@
     "autoprefixer": "~10.4.17",
     "cookie": "~0.7.2",
     "mdn-data": "~2.0.30",
+    "mime-db": "~1.54.0",
     "merge-descriptors": "~1.0.3"
   },
   "packageManager": "yarn@1.22.22"
