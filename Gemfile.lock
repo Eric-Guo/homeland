@@ -316,7 +316,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2025.0819)
+    mime-types-data (3.2025.0826)
     mini_histogram (0.3.1)
     mini_magick (5.3.1)
       logger
@@ -508,7 +508,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
-    rexml (3.4.1)
+    rexml (3.4.2)
     rouge (4.6.0)
     rubocop (1.75.8)
       json (~> 2.3)
