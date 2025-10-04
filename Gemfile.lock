@@ -492,9 +492,10 @@ GEM
       ffi (~> 1.0)
     rb_sys (0.9.117)
       rake-compiler-dock (= 1.9.1)
-    rdoc (6.14.2)
+    rdoc (6.15.0)
       erb
       psych (>= 4.0.0)
+      tsort
     recaptcha (5.21.1)
     redcarpet (3.6.1)
     redis (4.8.1)
@@ -611,6 +612,7 @@ GEM
     thor (1.4.0)
     tilt (2.6.1)
     timeout (0.4.3)
+    tsort (0.2.0)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
