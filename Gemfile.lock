@@ -574,7 +574,7 @@ GEM
       tilt
     securerandom (0.4.1)
     semantic_range (3.1.0)
-    shakapacker (8.4.0)
+    shakapacker (9.0.0)
       activesupport (>= 5.2)
       package_json
       rack-proxy (>= 0.6.1)
@@ -724,7 +724,7 @@ DEPENDENCIES
   ruby-push-notifications
   rucaptcha
   sass-rails
-  shakapacker (~> 8.0)
+  shakapacker (~> 9.0)
   sidekiq (~> 6.5.12)
   sidekiq-cron
   social-share-button
