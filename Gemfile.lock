@@ -199,7 +199,7 @@ GEM
     domain_name (0.6.20240107)
     doorkeeper (5.8.2)
       railties (>= 5)
-    doorkeeper-i18n (5.2.7)
+    doorkeeper-i18n (5.2.8)
       doorkeeper (>= 5.2)
     dotenv (3.1.8)
     dotenv-rails (3.1.8)
@@ -217,7 +217,7 @@ GEM
       kaminari (>= 0.15)
       rails (>= 5.2)
     execjs (2.10.0)
-    factory_bot (6.5.5)
+    factory_bot (6.5.6)
       activesupport (>= 6.1.0)
     factory_bot_rails (6.5.1)
       factory_bot (~> 6.5)
@@ -271,7 +271,7 @@ GEM
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
     jieba-rb (5.0.0)
-    json (2.15.1)
+    json (2.15.2)
     jwt (3.1.2)
       base64
     kaminari (1.2.2)
@@ -712,7 +712,7 @@ DEPENDENCIES
   rack (~> 2.2)
   rack-attack
   rack-cors
-  rails (~> 8)
+  rails (~> 8.0.3)
   rails-i18n
   rails-settings-cached
   rails_autolink
