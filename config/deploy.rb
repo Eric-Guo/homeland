@@ -26,7 +26,7 @@ set :branch, 'thape_forum'
 append :linked_files, *%w[.env.local puma.rb config/database.yml config/secrets.yml config/redis.yml config/master.key]
 
 # Default value for linked_dirs is []
-append :linked_dirs, *%w[log tmp/pids tmp/cache tmp/sockets public/avatar public/uploads node_modules storage]
+append :linked_dirs, *%w[log tmp/pids tmp/cache tmp/sockets public/avatar public/uploads storage]
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
@@ -41,7 +41,8 @@ append :linked_dirs, *%w[log tmp/pids tmp/cache tmp/sockets public/avatar public
 # set :ssh_options, verify_host_key: :secure
 
 set :rbenv_type, :user
-set :rbenv_ruby, '3.3.8'
+set :rbenv_ruby, "3.3.8"
+set :pnpm_flags, "--silent"
 
 set :puma_init_active_record, true
 set :puma_phased_restart, true

@@ -107,6 +107,7 @@ group :development do
   gem "spring"
 
   gem 'capistrano'
+  gem 'capistrano-pnpm'
   gem 'capistrano-rails'
   gem 'capistrano-rbenv'
   gem 'capistrano-sidekiq', require: false
