@@ -13,8 +13,8 @@
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@popperjs/core": "^2.11.8",
     "@prettier/plugin-ruby": "^2.1.0",
-    "@rails/actioncable": "~7.1.502",
-    "@rails/ujs": "~7.1.502",
+    "@rails/actioncable": "~7.1.600",
+    "@rails/ujs": "~7.1.600",
     "autoprefixer": "~10.4.21",
     "babel-loader": "8.2.5",
     "backbone": "~1.4.1",
@@ -71,5 +71,5 @@
     "mime-db": "~1.54.0",
     "merge-descriptors": "~1.0.3"
   },
-  "packageManager": "pnpm@10.19.0"
+  "packageManager": "pnpm@10.20.0"
 }
