@@ -1,6 +1,6 @@
 GIT
   remote: https://git.thape.com.cn/Eric-Guo/wechat.git
-  revision: e2e018a1ff1f314472693e99d525dfff4c7baed6
+  revision: ae2083bf6402280c8d178fb56e9bcff0733e0f0e
   branch: main
   specs:
     wechat (1.0.1)
@@ -396,7 +396,7 @@ GEM
       omniauth-oauth2 (>= 1.7.3)
     orm_adapter (0.5.0)
     ostruct (0.6.3)
-    package_json (0.1.1)
+    package_json (0.2.0)
     parallel (1.27.0)
     parser (3.3.10.0)
       ast (~> 2.4.1)
