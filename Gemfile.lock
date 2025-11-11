@@ -506,7 +506,7 @@ GEM
     redcarpet (3.6.1)
     redis (4.8.1)
     regexp_parser (2.11.3)
-    reline (0.6.2)
+    reline (0.6.3)
       io-console (~> 0.5)
     responders (3.2.0)
       actionpack (>= 7.0)
