@@ -47,7 +47,7 @@ importers:
         specifier: ~7.1.600
         version: 7.1.600
       autoprefixer:
-        specifier: ~10.4.17
+        specifier: ~10.4.22
         version: 10.4.22(postcss@8.5.6)
       babel-loader:
         specifier: 8.2.5
@@ -1231,8 +1231,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  baseline-browser-mapping@2.8.26:
-    resolution: {integrity: sha512-73lC1ugzwoaWCLJ1LvOgrR5xsMLTqSKIEoMHVtL9E/HNk0PXtTM76ZIm84856/SF7Nv8mPZxKoBsgpm0tR1u1Q==}
+  baseline-browser-mapping@2.8.27:
+    resolution: {integrity: sha512-2CXFpkjVnY2FT+B6GrSYxzYf65BJWEqz5tIRHCvNsZZ2F3CmsCB37h8SpYgKG7y9C4YAeTipIPWG7EmFmhAeXA==}
     hasBin: true
 
   batch@0.6.1:
@@ -2005,8 +2005,8 @@ packages:
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
-  js-yaml@4.1.0:
-    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+  js-yaml@4.1.1:
+    resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
     hasBin: true
 
   jsesc@3.1.0:
@@ -4692,7 +4692,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  baseline-browser-mapping@2.8.26: {}
+  baseline-browser-mapping@2.8.27: {}
 
   batch@0.6.1: {}
 
@@ -4748,7 +4748,7 @@ snapshots:
 
   browserslist@4.28.0:
     dependencies:
-      baseline-browser-mapping: 2.8.26
+      baseline-browser-mapping: 2.8.27
       caniuse-lite: 1.0.30001754
       electron-to-chromium: 1.5.250
       node-releases: 2.0.27
@@ -5464,7 +5464,7 @@ snapshots:
 
   js-tokens@4.0.0: {}
 
-  js-yaml@4.1.0:
+  js-yaml@4.1.1:
     dependencies:
       argparse: 2.0.1
 
@@ -6372,7 +6372,7 @@ snapshots:
 
   shakapacker@9.3.2(@babel/core@7.18.2)(@babel/plugin-transform-runtime@7.18.2(@babel/core@7.18.2))(@babel/preset-env@7.18.2(@babel/core@7.18.2))(@babel/runtime@7.18.3)(@swc/core@1.15.1)(babel-loader@8.2.5(@babel/core@7.18.2)(webpack@5.102.1))(compression-webpack-plugin@9.2.0(webpack@5.102.1))(css-loader@6.11.0(webpack@5.102.1))(mini-css-extract-plugin@2.9.4(webpack@5.102.1))(sass-loader@12.6.0(sass@1.52.1)(webpack@5.102.1))(sass@1.52.1)(swc-loader@0.2.6(@swc/core@1.15.1)(webpack@5.102.1))(terser-webpack-plugin@5.3.14(@swc/core@1.15.1)(webpack@5.102.1))(webpack-assets-manifest@5.2.1(webpack@5.102.1))(webpack-cli@6.0.1)(webpack-dev-server@4.9.0)(webpack@5.102.1):
     dependencies:
-      js-yaml: 4.1.0
+      js-yaml: 4.1.1
       path-complete-extname: 1.0.0
       webpack-merge: 5.10.0
       yargs: 17.7.2
