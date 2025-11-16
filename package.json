@@ -40,7 +40,7 @@
     "rails-erb-loader": "^5.5.2",
     "sass": "1.52.1",
     "sass-loader": "^12.6.0",
-    "shakapacker": "9.3.2",
+    "shakapacker": "9.3.3",
     "style-loader": "^3.3.4",
     "tailwindcss": "^3.4.18",
     "terser-webpack-plugin": "^5.3.14",
@@ -65,7 +65,7 @@
   },
   "resolutions": {
     "@types/retry": "~0.12.5",
-    "autoprefixer": "~10.4.17",
+    "autoprefixer": "~10.4.22",
     "cookie": "~0.7.2",
     "mdn-data": "~2.0.30",
     "mime-db": "~1.54.0",

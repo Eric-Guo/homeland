@@ -6,7 +6,7 @@ settings:
 
 overrides:
   '@types/retry': ~0.12.5
-  autoprefixer: ~10.4.17
+  autoprefixer: ~10.4.22
   cookie: ~0.7.2
   mdn-data: ~2.0.30
   mime-db: ~1.54.0
@@ -122,8 +122,8 @@ importers:
         specifier: ^12.6.0
         version: 12.6.0(sass@1.52.1)(webpack@5.102.1)
       shakapacker:
-        specifier: 9.3.2
-        version: 9.3.2(@babel/core@7.18.2)(@babel/plugin-transform-runtime@7.18.2(@babel/core@7.18.2))(@babel/preset-env@7.18.2(@babel/core@7.18.2))(@babel/runtime@7.18.3)(@swc/core@1.15.2)(babel-loader@8.2.5(@babel/core@7.18.2)(webpack@5.102.1))(compression-webpack-plugin@9.2.0(webpack@5.102.1))(css-loader@6.11.0(webpack@5.102.1))(mini-css-extract-plugin@2.9.4(webpack@5.102.1))(sass-loader@12.6.0(sass@1.52.1)(webpack@5.102.1))(sass@1.52.1)(swc-loader@0.2.6(@swc/core@1.15.2)(webpack@5.102.1))(terser-webpack-plugin@5.3.14(@swc/core@1.15.2)(webpack@5.102.1))(webpack-assets-manifest@5.2.1(webpack@5.102.1))(webpack-cli@6.0.1)(webpack-dev-server@4.9.0)(webpack@5.102.1)
+        specifier: 9.3.3
+        version: 9.3.3(@babel/core@7.18.2)(@babel/plugin-transform-runtime@7.18.2(@babel/core@7.18.2))(@babel/preset-env@7.18.2(@babel/core@7.18.2))(@babel/runtime@7.18.3)(@swc/core@1.15.2)(babel-loader@8.2.5(@babel/core@7.18.2)(webpack@5.102.1))(compression-webpack-plugin@9.2.0(webpack@5.102.1))(css-loader@6.11.0(webpack@5.102.1))(mini-css-extract-plugin@2.9.4(webpack@5.102.1))(sass-loader@12.6.0(sass@1.52.1)(webpack@5.102.1))(sass@1.52.1)(swc-loader@0.2.6(@swc/core@1.15.2)(webpack@5.102.1))(terser-webpack-plugin@5.3.14(@swc/core@1.15.2)(webpack@5.102.1))(webpack-assets-manifest@5.2.1(webpack@5.102.1))(webpack-cli@6.0.1)(webpack-dev-server@4.9.0)(webpack@5.102.1)
       style-loader:
         specifier: ^3.3.4
         version: 3.3.4(webpack@5.102.1)
@@ -1307,8 +1307,8 @@ packages:
   caniuse-api@3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
 
-  caniuse-lite@1.0.30001754:
-    resolution: {integrity: sha512-x6OeBXueoAceOmotzx3PO4Zpt4rzpeIFsSr6AAePTZxSkXiYDUmpypEl7e2+8NCd9bD7bXjqyef8CJYPC1jfxg==}
+  caniuse-lite@1.0.30001755:
+    resolution: {integrity: sha512-44V+Jm6ctPj7R52Na4TLi3Zri4dWUljJd+RDm+j8LtNCc/ihLCT+X1TzoOAkRETEWqjuLnh9581Tl80FvK7jVA==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -1598,8 +1598,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.253:
-    resolution: {integrity: sha512-O0tpQ/35rrgdiGQ0/OFWhy1itmd9A6TY9uQzlqj3hKSu/aYpe7UIn5d7CU2N9myH6biZiWF3VMZVuup8pw5U9w==}
+  electron-to-chromium@1.5.254:
+    resolution: {integrity: sha512-DcUsWpVhv9svsKRxnSCZ86SjD+sp32SGidNB37KpqXJncp1mfUgKbHvBomE89WJDbfVKw1mdv5+ikrvd43r+Bg==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2989,8 +2989,8 @@ packages:
   setprototypeof@1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
 
-  shakapacker@9.3.2:
-    resolution: {integrity: sha512-pj+M+MCtUedhY2FxvPPH4j59TixHp3wioZkq95HMiHHvlQmkw5psfJz6840TaDEaNrDNFLYP+Zb9I87XjAdpOQ==}
+  shakapacker@9.3.3:
+    resolution: {integrity: sha512-u2SSKb2d1wgMqcvUcg2XT1h9rJzHvGBssFnTO/gvTz3mvnrJAL71A6CVGSDe25gcOkt6TpeBDCxqfaKBXtjJnw==}
     engines: {node: '>= 20', yarn: '>=1 <5'}
     peerDependencies:
       '@babel/core': ^7.17.9
@@ -4646,7 +4646,7 @@ snapshots:
   autoprefixer@10.4.22(postcss@8.5.6):
     dependencies:
       browserslist: 4.28.0
-      caniuse-lite: 1.0.30001754
+      caniuse-lite: 1.0.30001755
       fraction.js: 5.3.4
       normalize-range: 0.1.2
       picocolors: 1.1.1
@@ -4749,8 +4749,8 @@ snapshots:
   browserslist@4.28.0:
     dependencies:
       baseline-browser-mapping: 2.8.28
-      caniuse-lite: 1.0.30001754
-      electron-to-chromium: 1.5.253
+      caniuse-lite: 1.0.30001755
+      electron-to-chromium: 1.5.254
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
 
@@ -4775,11 +4775,11 @@ snapshots:
   caniuse-api@3.0.0:
     dependencies:
       browserslist: 4.28.0
-      caniuse-lite: 1.0.30001754
+      caniuse-lite: 1.0.30001755
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
-  caniuse-lite@1.0.30001754: {}
+  caniuse-lite@1.0.30001755: {}
 
   chalk@4.1.2:
     dependencies:
@@ -5064,7 +5064,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.253: {}
+  electron-to-chromium@1.5.254: {}
 
   emoji-regex@8.0.0: {}
 
@@ -6370,7 +6370,7 @@ snapshots:
 
   setprototypeof@1.2.0: {}
 
-  shakapacker@9.3.2(@babel/core@7.18.2)(@babel/plugin-transform-runtime@7.18.2(@babel/core@7.18.2))(@babel/preset-env@7.18.2(@babel/core@7.18.2))(@babel/runtime@7.18.3)(@swc/core@1.15.2)(babel-loader@8.2.5(@babel/core@7.18.2)(webpack@5.102.1))(compression-webpack-plugin@9.2.0(webpack@5.102.1))(css-loader@6.11.0(webpack@5.102.1))(mini-css-extract-plugin@2.9.4(webpack@5.102.1))(sass-loader@12.6.0(sass@1.52.1)(webpack@5.102.1))(sass@1.52.1)(swc-loader@0.2.6(@swc/core@1.15.2)(webpack@5.102.1))(terser-webpack-plugin@5.3.14(@swc/core@1.15.2)(webpack@5.102.1))(webpack-assets-manifest@5.2.1(webpack@5.102.1))(webpack-cli@6.0.1)(webpack-dev-server@4.9.0)(webpack@5.102.1):
+  shakapacker@9.3.3(@babel/core@7.18.2)(@babel/plugin-transform-runtime@7.18.2(@babel/core@7.18.2))(@babel/preset-env@7.18.2(@babel/core@7.18.2))(@babel/runtime@7.18.3)(@swc/core@1.15.2)(babel-loader@8.2.5(@babel/core@7.18.2)(webpack@5.102.1))(compression-webpack-plugin@9.2.0(webpack@5.102.1))(css-loader@6.11.0(webpack@5.102.1))(mini-css-extract-plugin@2.9.4(webpack@5.102.1))(sass-loader@12.6.0(sass@1.52.1)(webpack@5.102.1))(sass@1.52.1)(swc-loader@0.2.6(@swc/core@1.15.2)(webpack@5.102.1))(terser-webpack-plugin@5.3.14(@swc/core@1.15.2)(webpack@5.102.1))(webpack-assets-manifest@5.2.1(webpack@5.102.1))(webpack-cli@6.0.1)(webpack-dev-server@4.9.0)(webpack@5.102.1):
     dependencies:
       js-yaml: 4.1.1
       path-complete-extname: 1.0.0
