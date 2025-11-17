@@ -730,7 +730,7 @@ DEPENDENCIES
   ruby-push-notifications
   rucaptcha
   sass-rails
-  shakapacker (~> 9.0)
+  shakapacker (~> 9.3)
   sidekiq (~> 6.5.12)
   sidekiq-cron
   social-share-button
