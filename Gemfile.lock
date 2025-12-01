@@ -90,7 +90,7 @@ GEM
       uri (>= 0.13.1)
     addressable (2.8.8)
       public_suffix (>= 2.0.2, < 8.0)
-    airbrussh (1.5.3)
+    airbrussh (1.6.0)
       sshkit (>= 1.6.1, != 1.7.0)
     aliyun-sdk (0.8.0)
       nokogiri (~> 1.6)
@@ -498,7 +498,7 @@ GEM
       ffi (~> 1.0)
     rb_sys (0.9.117)
       rake-compiler-dock (= 1.9.1)
-    rdoc (6.16.0)
+    rdoc (6.16.1)
       erb
       psych (>= 4.0.0)
       tsort
@@ -536,7 +536,7 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.75.0, < 2.0)
       rubocop-ast (>= 1.47.1, < 2.0)
-    rubocop-rails (2.34.1)
+    rubocop-rails (2.34.2)
       activesupport (>= 4.2.0)
       lint_roller (~> 1.1)
       rack (>= 1.1)
