@@ -171,7 +171,7 @@ GEM
       tzinfo
       unicode (>= 0.4.4.5)
     dalli (3.2.8)
-    date (3.5.0)
+    date (3.5.1)
     derailed_benchmarks (2.2.1)
       base64
       benchmark-ips (~> 2)
@@ -417,7 +417,7 @@ GEM
       prettyprint
     prettyprint (0.2.0)
     prism (1.6.0)
-    psych (5.2.6)
+    psych (5.3.0)
       date
       stringio
     public_suffix (7.0.0)
@@ -745,4 +745,4 @@ RUBY VERSION
   ruby 3.4.6p54
 
 BUNDLED WITH
-  4.0.0
+  4.0.1
