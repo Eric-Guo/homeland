@@ -10,7 +10,7 @@ gem "rails", "~> 8.0.3"
 gem "rails_autolink"
 gem "faker"
 gem "sass-rails"
-gem "shakapacker", "~> 9.3"
+gem "shakapacker", "~> 9.5"
 gem "turbolinks"
 gem "uglifier"
 

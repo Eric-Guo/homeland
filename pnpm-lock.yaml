@@ -122,8 +122,8 @@ importers:
         specifier: ^12.6.0
         version: 12.6.0(sass@1.52.1)(webpack@5.104.1)
       shakapacker:
-        specifier: 9.4.0
-        version: 9.4.0(@babel/core@7.18.2)(@babel/plugin-transform-runtime@7.18.2(@babel/core@7.18.2))(@babel/preset-env@7.18.2(@babel/core@7.18.2))(@babel/runtime@7.18.3)(@swc/core@1.15.8)(babel-loader@8.2.5(@babel/core@7.18.2)(webpack@5.104.1))(compression-webpack-plugin@9.2.0(webpack@5.104.1))(css-loader@6.11.0(webpack@5.104.1))(mini-css-extract-plugin@2.9.4(webpack@5.104.1))(sass-loader@12.6.0(sass@1.52.1)(webpack@5.104.1))(sass@1.52.1)(swc-loader@0.2.6(@swc/core@1.15.8)(webpack@5.104.1))(terser-webpack-plugin@5.3.16(@swc/core@1.15.8)(webpack@5.104.1))(webpack-assets-manifest@5.2.1(webpack@5.104.1))(webpack-cli@6.0.1)(webpack-dev-server@4.9.0)(webpack@5.104.1)
+        specifier: 9.5.0
+        version: 9.5.0(@babel/core@7.18.2)(@babel/plugin-transform-runtime@7.18.2(@babel/core@7.18.2))(@babel/preset-env@7.18.2(@babel/core@7.18.2))(@babel/runtime@7.18.3)(@swc/core@1.15.8)(babel-loader@8.2.5(@babel/core@7.18.2)(webpack@5.104.1))(compression-webpack-plugin@9.2.0(webpack@5.104.1))(css-loader@6.11.0(webpack@5.104.1))(mini-css-extract-plugin@2.9.4(webpack@5.104.1))(sass-loader@12.6.0(sass@1.52.1)(webpack@5.104.1))(sass@1.52.1)(swc-loader@0.2.6(@swc/core@1.15.8)(webpack@5.104.1))(terser-webpack-plugin@5.3.16(@swc/core@1.15.8)(webpack@5.104.1))(webpack-assets-manifest@5.2.1(webpack@5.104.1))(webpack-cli@6.0.1)(webpack-dev-server@4.9.0)(webpack@5.104.1)
       style-loader:
         specifier: ^3.3.4
         version: 3.3.4(webpack@5.104.1)
@@ -1215,8 +1215,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  baseline-browser-mapping@2.9.12:
-    resolution: {integrity: sha512-Mij6Lij93pTAIsSYy5cyBQ975Qh9uLEc5rwGTpomiZeXZL9yIS6uORJakb3ScHgfs0serMMfIbXzokPMuEiRyw==}
+  baseline-browser-mapping@2.9.13:
+    resolution: {integrity: sha512-WhtvB2NG2wjr04+h77sg3klAIwrgOqnjS49GGudnUPGFFgg7G17y7Qecqp+2Dr5kUDxNRBca0SK7cG8JwzkWDQ==}
     hasBin: true
 
   batch@0.6.1:
@@ -1288,8 +1288,8 @@ packages:
   caniuse-api@3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
 
-  caniuse-lite@1.0.30001762:
-    resolution: {integrity: sha512-PxZwGNvH7Ak8WX5iXzoK1KPZttBXNPuaOvI2ZYU7NrlM+d9Ov+TUvlLOBNGzVXAntMSMMlJPd+jY6ovrVjSmUw==}
+  caniuse-lite@1.0.30001763:
+    resolution: {integrity: sha512-mh/dGtq56uN98LlNX9qdbKnzINhX0QzhiWBFEkFfsFO4QyCvL8YegrJAazCwXIeqkIob8BlZPGM3xdnY+sgmvQ==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -2940,8 +2940,8 @@ packages:
   setprototypeof@1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
 
-  shakapacker@9.4.0:
-    resolution: {integrity: sha512-Kf5+LADw5kkaPHqXDA6NknGt6p8MK9jjWuiudM+ESHcF/POxFZ1S5p7lMsyezvuMRMm0HrltQCM/NPadGEEnVg==}
+  shakapacker@9.5.0:
+    resolution: {integrity: sha512-pTGHzHCc74CIoXeg8otCoBa8DjGWZUoYVKu9eyWwpdO9Jq6yHxSD9u5Qp36nXjC9jupd9gnfhCY5YHqkJHpfLA==}
     engines: {node: '>= 20', yarn: '>=1 <5'}
     peerDependencies:
       '@babel/core': ^7.17.9
@@ -4569,7 +4569,7 @@ snapshots:
   autoprefixer@10.4.23(postcss@8.5.6):
     dependencies:
       browserslist: 4.28.1
-      caniuse-lite: 1.0.30001762
+      caniuse-lite: 1.0.30001763
       fraction.js: 5.3.4
       picocolors: 1.1.1
       postcss: 8.5.6
@@ -4614,7 +4614,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  baseline-browser-mapping@2.9.12: {}
+  baseline-browser-mapping@2.9.13: {}
 
   batch@0.6.1: {}
 
@@ -4666,8 +4666,8 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.9.12
-      caniuse-lite: 1.0.30001762
+      baseline-browser-mapping: 2.9.13
+      caniuse-lite: 1.0.30001763
       electron-to-chromium: 1.5.267
       node-releases: 2.0.27
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
@@ -4693,11 +4693,11 @@ snapshots:
   caniuse-api@3.0.0:
     dependencies:
       browserslist: 4.28.1
-      caniuse-lite: 1.0.30001762
+      caniuse-lite: 1.0.30001763
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
-  caniuse-lite@1.0.30001762: {}
+  caniuse-lite@1.0.30001763: {}
 
   chalk@4.1.2:
     dependencies:
@@ -6251,7 +6251,7 @@ snapshots:
 
   setprototypeof@1.2.0: {}
 
-  shakapacker@9.4.0(@babel/core@7.18.2)(@babel/plugin-transform-runtime@7.18.2(@babel/core@7.18.2))(@babel/preset-env@7.18.2(@babel/core@7.18.2))(@babel/runtime@7.18.3)(@swc/core@1.15.8)(babel-loader@8.2.5(@babel/core@7.18.2)(webpack@5.104.1))(compression-webpack-plugin@9.2.0(webpack@5.104.1))(css-loader@6.11.0(webpack@5.104.1))(mini-css-extract-plugin@2.9.4(webpack@5.104.1))(sass-loader@12.6.0(sass@1.52.1)(webpack@5.104.1))(sass@1.52.1)(swc-loader@0.2.6(@swc/core@1.15.8)(webpack@5.104.1))(terser-webpack-plugin@5.3.16(@swc/core@1.15.8)(webpack@5.104.1))(webpack-assets-manifest@5.2.1(webpack@5.104.1))(webpack-cli@6.0.1)(webpack-dev-server@4.9.0)(webpack@5.104.1):
+  shakapacker@9.5.0(@babel/core@7.18.2)(@babel/plugin-transform-runtime@7.18.2(@babel/core@7.18.2))(@babel/preset-env@7.18.2(@babel/core@7.18.2))(@babel/runtime@7.18.3)(@swc/core@1.15.8)(babel-loader@8.2.5(@babel/core@7.18.2)(webpack@5.104.1))(compression-webpack-plugin@9.2.0(webpack@5.104.1))(css-loader@6.11.0(webpack@5.104.1))(mini-css-extract-plugin@2.9.4(webpack@5.104.1))(sass-loader@12.6.0(sass@1.52.1)(webpack@5.104.1))(sass@1.52.1)(swc-loader@0.2.6(@swc/core@1.15.8)(webpack@5.104.1))(terser-webpack-plugin@5.3.16(@swc/core@1.15.8)(webpack@5.104.1))(webpack-assets-manifest@5.2.1(webpack@5.104.1))(webpack-cli@6.0.1)(webpack-dev-server@4.9.0)(webpack@5.104.1):
     dependencies:
       js-yaml: 4.1.1
       path-complete-extname: 1.0.0
