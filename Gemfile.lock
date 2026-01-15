@@ -111,7 +111,7 @@ GEM
     benchmark (0.5.0)
     benchmark-ips (2.14.0)
     bigdecimal (4.0.1)
-    bootsnap (1.21.0)
+    bootsnap (1.21.1)
       msgpack (~> 1.2)
     builder (3.3.0)
     byebug (12.0.0)
@@ -402,7 +402,7 @@ GEM
     ostruct (0.6.3)
     package_json (0.2.0)
     parallel (1.27.0)
-    parser (3.3.10.0)
+    parser (3.3.10.1)
       ast (~> 2.4.1)
       racc
     pg (1.6.3-aarch64-linux-musl)
@@ -748,4 +748,4 @@ RUBY VERSION
   ruby 3.4.6p54
 
 BUNDLED WITH
-  4.0.2
+  4.0.4
