@@ -60,7 +60,7 @@
   "devDependencies": {
     "@swc/core": "^1.15.8",
     "prettier-plugin-sort-json": "^0.0.2",
-    "swc-loader": "^0.2.6",
+    "swc-loader": "^0.2.7",
     "webpack-dev-server": "4.9.0"
   },
   "resolutions": {
