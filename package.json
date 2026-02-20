@@ -47,7 +47,7 @@
     "turbolinks": "~5.2.0",
     "turbolinks-prefetch": "~1.0.4",
     "typescript": "~4.9.5",
-    "underscore": "~1.13.7",
+    "underscore": "~1.13.8",
     "webpack": "^5.105.2",
     "webpack-assets-manifest": "^5.2.1",
     "webpack-cli": "^6.0.1"
@@ -71,5 +71,5 @@
     "mime-db": "~1.54.0",
     "merge-descriptors": "~1.0.3"
   },
-  "packageManager": "pnpm@10.29.3"
+  "packageManager": "pnpm@10.30.1"
 }
