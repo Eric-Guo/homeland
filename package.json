@@ -15,7 +15,7 @@
     "@prettier/plugin-ruby": "^2.1.0",
     "@rails/actioncable": "~7.1.600",
     "@rails/ujs": "~7.1.600",
-    "autoprefixer": "~10.4.24",
+    "autoprefixer": "~10.4.27",
     "babel-loader": "8.2.5",
     "backbone": "~1.4.1",
     "bootstrap": "~5.3.8",
