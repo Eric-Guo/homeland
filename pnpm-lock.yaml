@@ -47,7 +47,7 @@ importers:
         specifier: ~7.1.600
         version: 7.1.600
       autoprefixer:
-        specifier: ~10.4.22
+        specifier: ~10.4.27
         version: 10.4.27(postcss@8.5.8)
       babel-loader:
         specifier: 8.2.5
