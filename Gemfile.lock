@@ -172,7 +172,8 @@ GEM
     cronex (0.15.0)
       tzinfo
       unicode (>= 0.4.4.5)
-    dalli (3.2.8)
+    dalli (5.0.2)
+      logger
     date (3.5.1)
     derailed_benchmarks (2.2.1)
       base64
@@ -277,7 +278,7 @@ GEM
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
     jieba-rb (5.0.0)
-    json (2.19.2)
+    json (2.19.3)
     jwt (3.1.2)
       base64
     kaminari (1.2.2)
@@ -752,4 +753,4 @@ RUBY VERSION
   ruby 3.4.6p54
 
 BUNDLED WITH
-  4.0.6
+  4.0.9

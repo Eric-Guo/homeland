@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
-ruby "~> 3.0"
+ruby ">= 3.0"
 gem "ffi", "~> 1.16.0"
 
 gem "jbuilder"
