@@ -58,7 +58,7 @@
     ]
   },
   "devDependencies": {
-    "@swc/core": "^1.15.21",
+    "@swc/core": "^1.15.24",
     "prettier-plugin-sort-json": "^0.0.2",
     "swc-loader": "^0.2.7",
     "webpack-dev-server": "4.9.0"
