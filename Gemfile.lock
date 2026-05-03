@@ -325,7 +325,7 @@ GEM
     mini_magick (5.3.1)
       logger
     mini_mime (1.1.5)
-    minitest (6.0.5)
+    minitest (6.0.6)
       drb (~> 2.0)
       prism (~> 1.5)
     minitest-spec-rails (7.4.1)
@@ -606,7 +606,7 @@ GEM
       version_gem (>= 1.1.8, < 3)
     social-share-button (1.2.4)
       coffee-rails
-    spring (4.4.2)
+    spring (4.5.0)
     sprockets (4.2.2)
       concurrent-ruby (~> 1.0)
       logger
