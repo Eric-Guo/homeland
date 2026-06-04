@@ -96,7 +96,7 @@ GEM
       nokogiri (~> 1.6)
       rest-client (~> 2.0)
     ast (2.4.3)
-    auth-sanitizer (0.1.4)
+    auth-sanitizer (0.1.5)
       version_gem (~> 1.1, >= 1.1.9)
     autocorrect-rb (2.16.3-aarch64-linux)
       rb_sys (>= 0.9.105)
