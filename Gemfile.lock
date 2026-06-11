@@ -336,12 +336,12 @@ GEM
       railties (>= 4.1)
     mocha (3.1.0)
       ruby2_keywords (>= 0.0.5)
-    msgpack (1.8.2)
+    msgpack (1.8.3)
     multi_xml (0.6.0)
     mutex_m (0.3.0)
     net-http (0.9.1)
       uri (>= 0.11.1)
-    net-imap (0.6.4)
+    net-imap (0.6.4.1)
       date
       net-protocol
     net-pop (0.1.2)
@@ -763,4 +763,4 @@ RUBY VERSION
   ruby 3.4.6p54
 
 BUNDLED WITH
-  4.0.13
+  4.0.14
