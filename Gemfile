@@ -114,6 +114,8 @@ group :development do
   gem 'capistrano3-puma'
   gem "ed25519"
   gem "bcrypt_pbkdf"
+
+  gem "tidewave"
 end
 
 group :development, :test do
