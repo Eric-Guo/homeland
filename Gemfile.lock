@@ -266,7 +266,7 @@ GEM
     http-cookie (1.1.6)
       domain_name (~> 0.5)
     http_accept_language (2.1.1)
-    httpx (1.8.0)
+    httpx (1.8.1)
       http-2 (>= 1.2.0)
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
@@ -343,7 +343,7 @@ GEM
     mutex_m (0.3.0)
     net-http (0.9.1)
       uri (>= 0.11.1)
-    net-imap (0.6.4.1)
+    net-imap (0.6.6)
       date
       net-protocol
     net-pop (0.1.2)
@@ -458,8 +458,8 @@ GEM
     rack-protection (3.2.0)
       base64 (>= 0.1.0)
       rack (~> 2.2, >= 2.2.4)
-    rack-proxy (0.8.3)
-      rack
+    rack-proxy (1.0.1)
+      rack (>= 2.0, < 4)
     rack-session (1.0.2)
       rack (< 3)
     rack-test (2.2.0)
@@ -630,7 +630,7 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sshkit (1.25.0)
+    sshkit (1.25.1)
       base64
       logger
       net-scp (>= 1.1.2)
@@ -640,7 +640,7 @@ GEM
     ssrf_filter (1.5.0)
     strscan (3.1.8)
     thor (1.5.0)
-    tidewave (0.5.2)
+    tidewave (0.8.0)
       rack (>= 2.0)
     tilt (2.8.0)
     timeout (0.6.1)
@@ -771,4 +771,4 @@ RUBY VERSION
   ruby 3.4.6p54
 
 BUNDLED WITH
-  4.0.16
+  4.0.17
