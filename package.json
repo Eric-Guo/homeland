@@ -58,7 +58,7 @@
     ]
   },
   "devDependencies": {
-    "@swc/core": "^1.15.47",
+    "@swc/core": "^1.16.0",
     "prettier-plugin-sort-json": "^0.0.2",
     "swc-loader": "^0.2.7",
     "webpack-dev-server": "4.9.0"
@@ -71,5 +71,5 @@
     "mime-db": "~1.54.0",
     "merge-descriptors": "~1.0.3"
   },
-  "packageManager": "pnpm@11.21.0"
+  "packageManager": "pnpm@11.22.0"
 }
