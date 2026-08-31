@@ -206,7 +206,7 @@ GEM
       warden (~> 1.2.3)
     devise-encryptable (0.3.0)
       devise (>= 2.1.0)
-    domain_name (0.6.20240107)
+    domain_name (0.6.20260829)
     doorkeeper (5.9.6)
       railties (>= 5)
     doorkeeper-i18n (5.2.9)
@@ -328,7 +328,7 @@ GEM
       mime-types-data (~> 3.2025, >= 3.2025.0507)
     mime-types-data (3.2026.0701)
     mini_histogram (0.3.1)
-    mini_magick (5.3.3)
+    mini_magick (5.4.0)
       logger
     mini_mime (1.1.5)
     minitest (6.0.6)
