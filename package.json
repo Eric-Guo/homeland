@@ -71,5 +71,5 @@
     "mime-db": "~1.54.0",
     "merge-descriptors": "~1.0.3"
   },
-  "packageManager": "pnpm@11.24.0"
+  "packageManager": "pnpm@11.25.0"
 }
