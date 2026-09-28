@@ -177,7 +177,7 @@ GEM
     cronex (0.15.0)
       tzinfo
       unicode (>= 0.4.4.5)
-    dalli (5.1.0)
+    dalli (5.1.1)
       logger
     date (3.5.1)
     derailed_benchmarks (2.2.1)
@@ -206,8 +206,8 @@ GEM
       warden (~> 1.2.3)
     devise-encryptable (0.3.0)
       devise (>= 2.1.0)
-    domain_name (0.6.20260907)
-    doorkeeper (5.9.7)
+    domain_name (0.6.20260921)
+    doorkeeper (5.9.9)
       railties (>= 5)
     doorkeeper-i18n (5.2.9)
       doorkeeper (>= 5.2)
