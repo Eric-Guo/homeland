@@ -177,7 +177,7 @@ GEM
     cronex (0.15.0)
       tzinfo
       unicode (>= 0.4.4.5)
-    dalli (5.2.0)
+    dalli (5.2.2)
       logger
     date (3.5.1)
     derailed_benchmarks (2.2.1)
@@ -326,7 +326,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.0929)
+    mime-types-data (3.2026.1006)
     mini_histogram (0.3.1)
     mini_magick (5.4.0)
       logger
@@ -357,7 +357,7 @@ GEM
       net-ssh (>= 5.0.0, < 8.0.0)
     net-smtp (0.5.2)
       net-protocol
-    net-ssh (7.3.3)
+    net-ssh (7.3.6)
     netrc (0.11.0)
     nio4r (2.7.5)
     nokogiri (1.19.4-aarch64-linux-musl)
