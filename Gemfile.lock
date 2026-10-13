@@ -120,7 +120,7 @@ GEM
     builder (3.3.0)
     byebug (13.0.0)
       reline (>= 0.6.0)
-    cancancan (3.6.1)
+    cancancan (3.6.2)
     capistrano (3.20.1)
       airbrussh (>= 1.0.0)
       i18n
@@ -179,7 +179,7 @@ GEM
       unicode (>= 0.4.4.5)
     dalli (5.2.2)
       logger
-    date (3.5.1)
+    date (3.6.0)
     derailed_benchmarks (2.2.1)
       base64
       benchmark-ips (~> 2)
@@ -342,9 +342,10 @@ GEM
     msgpack (1.8.5)
     multi_xml (0.6.0)
     mutex_m (0.3.0)
-    net-http (0.9.1)
+    net-http (0.10.0)
+      net-protocol (>= 0.3.0)
       uri (>= 0.11.1)
-    net-imap (0.6.7)
+    net-imap (0.6.8)
       date
       net-protocol
     net-pop (0.1.2)
@@ -414,8 +415,8 @@ GEM
       cgi
       omniauth-oauth (~> 1.2)
       rack
-    omniauth-wechat-oauth2 (0.2.3)
-      omniauth-oauth2 (>= 1.7.3)
+    omniauth-wechat-oauth2 (0.3.0)
+      omniauth-oauth2 (>= 1.8.0)
     orm_adapter (0.5.0)
     ostruct (0.6.3)
     package_json (0.2.0)
@@ -436,7 +437,7 @@ GEM
       postmark (>= 1.21.3, < 2.0)
     pp (0.6.4)
       prettyprint
-    prettyprint (0.2.0)
+    prettyprint (0.2.1)
     prism (1.9.0)
     public_suffix (7.0.5)
     puma (5.6.9)
@@ -542,14 +543,14 @@ GEM
     rexml (3.4.4)
     rouge (5.1.0)
       strscan (~> 3.1)
-    rubocop (1.91.0)
+    rubocop (1.92.0)
       json (>= 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
       parallel (>= 1.10)
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
-      regexp_parser (>= 2.9.3, < 3.0)
+      regexp_parser (>= 2.11.3, < 3.0)
       rubocop-ast (>= 1.49.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
@@ -659,7 +660,7 @@ GEM
     unicode-display_width (3.3.0)
       unicode-emoji (~> 4.3)
     unicode-emoji (4.3.0)
-    uri (1.1.1)
+    uri (1.1.2)
     useragent (0.16.11)
     version_gem (1.1.15)
     view_component (4.15.0)
