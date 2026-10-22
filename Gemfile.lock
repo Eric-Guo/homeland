@@ -173,7 +173,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.3.8)
     connection_pool (2.5.5)
-    crass (1.0.7)
+    crass (1.0.8)
     cronex (0.15.0)
       tzinfo
       unicode (>= 0.4.4.5)
@@ -235,11 +235,11 @@ GEM
       railties (>= 6.1.0)
     faker (3.8.0)
       i18n (>= 1.8.11, < 2)
-    faraday (2.14.4)
-      faraday-net_http (>= 2.0, < 3.5)
+    faraday (2.15.0)
+      faraday-net_http (>= 2.0, < 3.6)
       json
       logger
-    faraday-net_http (3.4.4)
+    faraday-net_http (3.5.0)
       net-http (~> 0.5)
     faraday-rack (2.1.3)
       faraday (~> 2.0)
@@ -287,18 +287,18 @@ GEM
     json (2.21.2)
     jwt (3.2.0)
       base64
-    kaminari (1.2.2)
+    kaminari (1.3.0)
       activesupport (>= 4.1.0)
-      kaminari-actionview (= 1.2.2)
-      kaminari-activerecord (= 1.2.2)
-      kaminari-core (= 1.2.2)
-    kaminari-actionview (1.2.2)
+      kaminari-actionview (= 1.3.0)
+      kaminari-activerecord (= 1.3.0)
+      kaminari-core (= 1.3.0)
+    kaminari-actionview (1.3.0)
       actionview
-      kaminari-core (= 1.2.2)
-    kaminari-activerecord (1.2.2)
+      kaminari-core (= 1.3.0)
+    kaminari-activerecord (1.3.0)
       activerecord
-      kaminari-core (= 1.2.2)
-    kaminari-core (1.2.2)
+      kaminari-core (= 1.3.0)
+    kaminari-core (1.3.0)
     language_server-protocol (3.17.0.6)
     launchy (3.1.1)
       addressable (~> 2.8)
@@ -326,7 +326,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.1006)
+    mime-types-data (3.2026.1020)
     mini_histogram (0.3.1)
     mini_magick (5.4.0)
       logger
@@ -352,13 +352,15 @@ GEM
       net-protocol
     net-protocol (0.4.0)
       timeout
-    net-scp (4.1.0)
-      net-ssh (>= 2.6.5, < 8.0.0)
-    net-sftp (4.0.0)
-      net-ssh (>= 5.0.0, < 8.0.0)
+    net-scp (4.1.1)
+      net-ssh (>= 2.6.5, < 9.0.0)
+    net-sftp (4.0.1)
+      net-ssh (>= 5.0.0, < 9.0.0)
     net-smtp (0.5.2)
       net-protocol
-    net-ssh (7.3.6)
+    net-ssh (8.0.2)
+      logger
+      openssl (>= 3.2.0)
     netrc (0.11.0)
     nio4r (2.7.5)
     nokogiri (1.19.4-aarch64-linux-musl)
@@ -417,6 +419,7 @@ GEM
       rack
     omniauth-wechat-oauth2 (0.3.0)
       omniauth-oauth2 (>= 1.8.0)
+    openssl (4.0.2)
     orm_adapter (0.5.0)
     ostruct (0.6.3)
     package_json (0.2.0)
@@ -424,11 +427,11 @@ GEM
     parser (3.3.12.0)
       ast (~> 2.4.1)
       racc
-    pg (1.6.3-aarch64-linux-musl)
-    pg (1.6.3-arm64-darwin)
-    pg (1.6.3-x86_64-linux)
-    pg (1.6.3-x86_64-linux-musl)
-    pghero (4.0.1)
+    pg (1.7.0-aarch64-linux-musl)
+    pg (1.7.0-arm64-darwin)
+    pg (1.7.0-x86_64-linux)
+    pg (1.7.0-x86_64-linux-musl)
+    pghero (4.1.0)
       activerecord (>= 7.2)
     postmark (1.25.1)
       json
@@ -460,11 +463,11 @@ GEM
     rack-protection (3.2.0)
       base64 (>= 0.1.0)
       rack (~> 2.2, >= 2.2.4)
-    rack-proxy (1.0.2)
+    rack-proxy (2.0.1)
       rack (>= 2.0, < 4)
     rack-session (1.0.2)
       rack (< 3)
-    rack-test (2.2.0)
+    rack-test (2.3.0)
       rack (>= 1.3)
     rackup (1.0.1)
       rack (< 3)
@@ -543,7 +546,7 @@ GEM
     rexml (3.4.4)
     rouge (5.1.0)
       strscan (~> 3.1)
-    rubocop (1.92.0)
+    rubocop (1.92.1)
       json (>= 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -663,7 +666,7 @@ GEM
     uri (1.1.2)
     useragent (0.16.11)
     version_gem (1.1.15)
-    view_component (4.15.0)
+    view_component (4.18.0)
       actionview (>= 7.1.0)
       activesupport (>= 7.1.0)
       concurrent-ruby (~> 1)
@@ -774,4 +777,4 @@ RUBY VERSION
   ruby 3.4.6p54
 
 BUNDLED WITH
-  4.0.22
+  4.0.23
