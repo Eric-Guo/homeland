@@ -7,6 +7,7 @@ gem "ffi", "~> 1.16.0"
 
 gem "jbuilder"
 gem "rails", "~> 8.0.5"
+gem "json", "< 3"
 gem "rails_autolink"
 gem "faker"
 gem "sass-rails"
